@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions targetNamespace="http://Data.ADAWs.unitn.it" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="http://Data.ADAWs.unitn.it" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata">
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://Data.ADAWs.unitn.it/Imports">
+			<xsd:import schemaLocation="http://svilupdotnet.unitn.it/ADAWsData/ADAWsData.svc?xsd=xsd0" namespace="http://Data.ADAWs.unitn.it"/>
+			<xsd:import schemaLocation="http://svilupdotnet.unitn.it/ADAWsData/ADAWsData.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="IADAWsData_PER_find_cognome_nome_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_cognome_nome"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_PER_find_cognome_nome_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_cognome_nomeResponse"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_PER_find_id_ada_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_id_ada"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_PER_find_id_ada_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_id_adaResponse"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_PER_find_posizioni_id_ada_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_posizioni_id_ada"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_PER_find_posizioni_id_ada_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_posizioni_id_adaResponse"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_PER_find_cognome_nome_20091229_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_cognome_nome_20091229"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_PER_find_cognome_nome_20091229_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_cognome_nome_20091229Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_PER_find_id_ada_20091229_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_id_ada_20091229"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_PER_find_id_ada_20091229_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_id_ada_20091229Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_PER_find_posizioni_id_ada_20091229_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_posizioni_id_ada_20091229"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_PER_find_posizioni_id_ada_20091229_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_posizioni_id_ada_20091229Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_VOIP_find_entity_20091229_InputMessage">
+		<wsdl:part name="parameters" element="tns:VOIP_find_entity_20091229"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_VOIP_find_entity_20091229_OutputMessage">
+		<wsdl:part name="parameters" element="tns:VOIP_find_entity_20091229Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_PER_find_all_posizioni_20091229_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_20091229"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_PER_find_all_posizioni_20091229_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_20091229Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_ACCOUNT_find_id_ada_20091229_InputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_find_id_ada_20091229"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_ACCOUNT_find_id_ada_20091229_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_find_id_ada_20091229Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_GOG_gerarchia_sto_20091229_InputMessage">
+		<wsdl:part name="parameters" element="tns:GOG_gerarchia_sto_20091229"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20091229_GOG_gerarchia_sto_20091229_OutputMessage">
+		<wsdl:part name="parameters" element="tns:GOG_gerarchia_sto_20091229Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_cognome_nome_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_cognome_nome_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_cognome_nome_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_cognome_nome_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_id_ada_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_id_ada_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_id_ada_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_id_ada_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_posizioni_id_ada_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_posizioni_id_ada_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_posizioni_id_ada_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_posizioni_id_ada_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_VOIP_find_entity_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:VOIP_find_entity_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_VOIP_find_entity_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:VOIP_find_entity_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_all_posizioni_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_all_posizioni_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ACCOUNT_find_id_ada_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_find_id_ada_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ACCOUNT_find_id_ada_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_find_id_ada_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_GOG_gerarchia_sto_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:GOG_gerarchia_sto_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_GOG_gerarchia_sto_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:GOG_gerarchia_sto_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_CODE_find_id_fonte_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:CODE_find_id_fonte_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_CODE_find_id_fonte_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:CODE_find_id_fonte_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_CODE_find_id_ada_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:CODE_find_id_ada_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_CODE_find_id_ada_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:CODE_find_id_ada_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_DESCRIZIONE_find_oga_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:DESCRIZIONE_find_oga_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_DESCRIZIONE_find_oga_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:DESCRIZIONE_find_oga_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_DESCRIZIONE_find_atr_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:DESCRIZIONE_find_atr_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_DESCRIZIONE_find_atr_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:DESCRIZIONE_find_atr_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ADA_ID_find_id_acc_da_username_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:ADA_ID_find_id_acc_da_username_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ADA_ID_find_id_acc_da_username_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ADA_ID_find_id_acc_da_username_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ADA_ID_find_id_ada_da_username_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:ADA_ID_find_id_ada_da_username_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ADA_ID_find_id_ada_da_username_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ADA_ID_find_id_ada_da_username_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ACCOUNT_MEMBERSHIP_find_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_MEMBERSHIP_find_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ACCOUNT_MEMBERSHIP_find_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_MEMBERSHIP_find_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_GROUP_MEMBER_find_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:GROUP_MEMBER_find_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_GROUP_MEMBER_find_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:GROUP_MEMBER_find_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_GROUP_find_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:GROUP_find_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_GROUP_find_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:GROUP_find_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_codici_base_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_codici_base_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_codici_base_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_codici_base_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_RECAPITO_find_oga_acc_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:RECAPITO_find_oga_acc_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_RECAPITO_find_oga_acc_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:RECAPITO_find_oga_acc_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_all_posizioni_date_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_date_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_find_all_posizioni_date_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_date_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ADI_find_all_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:ADI_find_all_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_ADI_find_all_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ADI_find_all_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_SSD_find_all_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:SSD_find_all_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_SSD_find_all_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:SSD_find_all_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_APE_find_all_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:APE_find_all_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_APE_find_all_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:APE_find_all_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_check_identity_20110214_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_check_identity_20110214"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20110214_PER_check_identity_20110214_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_check_identity_20110214Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_cognome_nome_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_cognome_nome_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_cognome_nome_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_cognome_nome_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_id_ada_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_id_ada_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_id_ada_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_id_ada_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_posizioni_id_ada_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_posizioni_id_ada_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_posizioni_id_ada_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_posizioni_id_ada_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_VOIP_find_entity_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:VOIP_find_entity_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_VOIP_find_entity_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:VOIP_find_entity_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_all_posizioni_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_all_posizioni_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ACCOUNT_find_id_ada_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_find_id_ada_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ACCOUNT_find_id_ada_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_find_id_ada_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_GOG_gerarchia_sto_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:GOG_gerarchia_sto_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_GOG_gerarchia_sto_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:GOG_gerarchia_sto_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_CODE_find_id_fonte_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:CODE_find_id_fonte_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_CODE_find_id_fonte_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:CODE_find_id_fonte_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_CODE_find_id_ada_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:CODE_find_id_ada_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_CODE_find_id_ada_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:CODE_find_id_ada_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_DESCRIZIONE_find_oga_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:DESCRIZIONE_find_oga_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_DESCRIZIONE_find_oga_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:DESCRIZIONE_find_oga_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_DESCRIZIONE_find_atr_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:DESCRIZIONE_find_atr_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_DESCRIZIONE_find_atr_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:DESCRIZIONE_find_atr_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ADA_ID_find_id_acc_da_username_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:ADA_ID_find_id_acc_da_username_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ADA_ID_find_id_acc_da_username_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ADA_ID_find_id_acc_da_username_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ADA_ID_find_id_ada_da_username_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:ADA_ID_find_id_ada_da_username_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ADA_ID_find_id_ada_da_username_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ADA_ID_find_id_ada_da_username_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ACCOUNT_MEMBERSHIP_find_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_MEMBERSHIP_find_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ACCOUNT_MEMBERSHIP_find_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ACCOUNT_MEMBERSHIP_find_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_GROUP_MEMBER_find_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:GROUP_MEMBER_find_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_GROUP_MEMBER_find_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:GROUP_MEMBER_find_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_GROUP_find_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:GROUP_find_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_GROUP_find_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:GROUP_find_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_codici_base_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_codici_base_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_codici_base_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_codici_base_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_RECAPITO_find_oga_acc_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:RECAPITO_find_oga_acc_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_RECAPITO_find_oga_acc_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:RECAPITO_find_oga_acc_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_all_posizioni_date_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_date_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_find_all_posizioni_date_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_find_all_posizioni_date_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ADI_find_all_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:ADI_find_all_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_ADI_find_all_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ADI_find_all_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_SSD_find_all_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:SSD_find_all_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_SSD_find_all_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:SSD_find_all_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_APE_find_all_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:APE_find_all_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_APE_find_all_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:APE_find_all_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_check_identity_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_check_identity_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_check_identity_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_check_identity_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_attivita_didattiche_sostenute_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:PER_attivita_didattiche_sostenute_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_PER_attivita_didattiche_sostenute_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:PER_attivita_didattiche_sostenute_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_LBS_libretto_studente_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:LBS_libretto_studente_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_LBS_libretto_studente_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:LBS_libretto_studente_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_AES_anagrafica_estesa_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:AES_anagrafica_estesa_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_AES_anagrafica_estesa_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:AES_anagrafica_estesa_20120415Response"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_UCS_ultima_carriera_studente_20120415_InputMessage">
+		<wsdl:part name="parameters" element="tns:UCS_ultima_carriera_studente_20120415"/>
+	</wsdl:message>
+	<wsdl:message name="IADAWsData_20120415_UCS_ultima_carriera_studente_20120415_OutputMessage">
+		<wsdl:part name="parameters" element="tns:UCS_ultima_carriera_studente_20120415Response"/>
+	</wsdl:message>
+	<wsdl:portType name="IADAWsData">
+		<wsdl:operation name="PER_find_cognome_nome">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData/PER_find_cognome_nome" message="tns:IADAWsData_PER_find_cognome_nome_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData/PER_find_cognome_nomeResponse" message="tns:IADAWsData_PER_find_cognome_nome_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_id_ada">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData/PER_find_id_ada" message="tns:IADAWsData_PER_find_id_ada_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData/PER_find_id_adaResponse" message="tns:IADAWsData_PER_find_id_ada_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_posizioni_id_ada">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData/PER_find_posizioni_id_ada" message="tns:IADAWsData_PER_find_posizioni_id_ada_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData/PER_find_posizioni_id_adaResponse" message="tns:IADAWsData_PER_find_posizioni_id_ada_OutputMessage"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:portType name="IADAWsData_20091229">
+		<wsdl:operation name="PER_find_cognome_nome_20091229">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/PER_find_cognome_nome_20091229" message="tns:IADAWsData_20091229_PER_find_cognome_nome_20091229_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/PER_find_cognome_nome_20091229Response" message="tns:IADAWsData_20091229_PER_find_cognome_nome_20091229_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_id_ada_20091229">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/PER_find_id_ada_20091229" message="tns:IADAWsData_20091229_PER_find_id_ada_20091229_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/PER_find_id_ada_20091229Response" message="tns:IADAWsData_20091229_PER_find_id_ada_20091229_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_posizioni_id_ada_20091229">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/PER_find_posizioni_id_ada_20091229" message="tns:IADAWsData_20091229_PER_find_posizioni_id_ada_20091229_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/PER_find_posizioni_id_ada_20091229Response" message="tns:IADAWsData_20091229_PER_find_posizioni_id_ada_20091229_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="VOIP_find_entity_20091229">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/VOIP_find_entity_20091229" message="tns:IADAWsData_20091229_VOIP_find_entity_20091229_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/VOIP_find_entity_20091229Response" message="tns:IADAWsData_20091229_VOIP_find_entity_20091229_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_all_posizioni_20091229">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/PER_find_all_posizioni_20091229" message="tns:IADAWsData_20091229_PER_find_all_posizioni_20091229_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/PER_find_all_posizioni_20091229Response" message="tns:IADAWsData_20091229_PER_find_all_posizioni_20091229_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ACCOUNT_find_id_ada_20091229">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/ACCOUNT_find_id_ada_20091229" message="tns:IADAWsData_20091229_ACCOUNT_find_id_ada_20091229_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/ACCOUNT_find_id_ada_20091229Response" message="tns:IADAWsData_20091229_ACCOUNT_find_id_ada_20091229_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="GOG_gerarchia_sto_20091229">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/GOG_gerarchia_sto_20091229" message="tns:IADAWsData_20091229_GOG_gerarchia_sto_20091229_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20091229/GOG_gerarchia_sto_20091229Response" message="tns:IADAWsData_20091229_GOG_gerarchia_sto_20091229_OutputMessage"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:portType name="IADAWsData_20110214">
+		<wsdl:operation name="PER_find_cognome_nome_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_cognome_nome_20110214" message="tns:IADAWsData_20110214_PER_find_cognome_nome_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_cognome_nome_20110214Response" message="tns:IADAWsData_20110214_PER_find_cognome_nome_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_id_ada_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_id_ada_20110214" message="tns:IADAWsData_20110214_PER_find_id_ada_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_id_ada_20110214Response" message="tns:IADAWsData_20110214_PER_find_id_ada_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_posizioni_id_ada_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_posizioni_id_ada_20110214" message="tns:IADAWsData_20110214_PER_find_posizioni_id_ada_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_posizioni_id_ada_20110214Response" message="tns:IADAWsData_20110214_PER_find_posizioni_id_ada_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="VOIP_find_entity_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/VOIP_find_entity_20110214" message="tns:IADAWsData_20110214_VOIP_find_entity_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/VOIP_find_entity_20110214Response" message="tns:IADAWsData_20110214_VOIP_find_entity_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_all_posizioni_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_all_posizioni_20110214" message="tns:IADAWsData_20110214_PER_find_all_posizioni_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_all_posizioni_20110214Response" message="tns:IADAWsData_20110214_PER_find_all_posizioni_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ACCOUNT_find_id_ada_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ACCOUNT_find_id_ada_20110214" message="tns:IADAWsData_20110214_ACCOUNT_find_id_ada_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ACCOUNT_find_id_ada_20110214Response" message="tns:IADAWsData_20110214_ACCOUNT_find_id_ada_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="GOG_gerarchia_sto_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/GOG_gerarchia_sto_20110214" message="tns:IADAWsData_20110214_GOG_gerarchia_sto_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/GOG_gerarchia_sto_20110214Response" message="tns:IADAWsData_20110214_GOG_gerarchia_sto_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="CODE_find_id_fonte_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/CODE_find_id_fonte_20110214" message="tns:IADAWsData_20110214_CODE_find_id_fonte_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/CODE_find_id_fonte_20110214Response" message="tns:IADAWsData_20110214_CODE_find_id_fonte_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="CODE_find_id_ada_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/CODE_find_id_ada_20110214" message="tns:IADAWsData_20110214_CODE_find_id_ada_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/CODE_find_id_ada_20110214Response" message="tns:IADAWsData_20110214_CODE_find_id_ada_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="DESCRIZIONE_find_oga_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/DESCRIZIONE_find_oga_20110214" message="tns:IADAWsData_20110214_DESCRIZIONE_find_oga_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/DESCRIZIONE_find_oga_20110214Response" message="tns:IADAWsData_20110214_DESCRIZIONE_find_oga_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="DESCRIZIONE_find_atr_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/DESCRIZIONE_find_atr_20110214" message="tns:IADAWsData_20110214_DESCRIZIONE_find_atr_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/DESCRIZIONE_find_atr_20110214Response" message="tns:IADAWsData_20110214_DESCRIZIONE_find_atr_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ADA_ID_find_id_acc_da_username_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ADA_ID_find_id_acc_da_username_20110214" message="tns:IADAWsData_20110214_ADA_ID_find_id_acc_da_username_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ADA_ID_find_id_acc_da_username_20110214Response" message="tns:IADAWsData_20110214_ADA_ID_find_id_acc_da_username_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ADA_ID_find_id_ada_da_username_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ADA_ID_find_id_ada_da_username_20110214" message="tns:IADAWsData_20110214_ADA_ID_find_id_ada_da_username_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ADA_ID_find_id_ada_da_username_20110214Response" message="tns:IADAWsData_20110214_ADA_ID_find_id_ada_da_username_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214" message="tns:IADAWsData_20110214_ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214Response" message="tns:IADAWsData_20110214_ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ACCOUNT_MEMBERSHIP_find_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ACCOUNT_MEMBERSHIP_find_20110214" message="tns:IADAWsData_20110214_ACCOUNT_MEMBERSHIP_find_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ACCOUNT_MEMBERSHIP_find_20110214Response" message="tns:IADAWsData_20110214_ACCOUNT_MEMBERSHIP_find_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="GROUP_MEMBER_find_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/GROUP_MEMBER_find_20110214" message="tns:IADAWsData_20110214_GROUP_MEMBER_find_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/GROUP_MEMBER_find_20110214Response" message="tns:IADAWsData_20110214_GROUP_MEMBER_find_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="GROUP_find_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/GROUP_find_20110214" message="tns:IADAWsData_20110214_GROUP_find_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/GROUP_find_20110214Response" message="tns:IADAWsData_20110214_GROUP_find_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_codici_base_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_codici_base_20110214" message="tns:IADAWsData_20110214_PER_find_codici_base_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_codici_base_20110214Response" message="tns:IADAWsData_20110214_PER_find_codici_base_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="RECAPITO_find_oga_acc_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/RECAPITO_find_oga_acc_20110214" message="tns:IADAWsData_20110214_RECAPITO_find_oga_acc_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/RECAPITO_find_oga_acc_20110214Response" message="tns:IADAWsData_20110214_RECAPITO_find_oga_acc_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_all_posizioni_date_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_all_posizioni_date_20110214" message="tns:IADAWsData_20110214_PER_find_all_posizioni_date_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_find_all_posizioni_date_20110214Response" message="tns:IADAWsData_20110214_PER_find_all_posizioni_date_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ADI_find_all_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ADI_find_all_20110214" message="tns:IADAWsData_20110214_ADI_find_all_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/ADI_find_all_20110214Response" message="tns:IADAWsData_20110214_ADI_find_all_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="SSD_find_all_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/SSD_find_all_20110214" message="tns:IADAWsData_20110214_SSD_find_all_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/SSD_find_all_20110214Response" message="tns:IADAWsData_20110214_SSD_find_all_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="APE_find_all_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/APE_find_all_20110214" message="tns:IADAWsData_20110214_APE_find_all_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/APE_find_all_20110214Response" message="tns:IADAWsData_20110214_APE_find_all_20110214_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_check_identity_20110214">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_check_identity_20110214" message="tns:IADAWsData_20110214_PER_check_identity_20110214_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20110214/PER_check_identity_20110214Response" message="tns:IADAWsData_20110214_PER_check_identity_20110214_OutputMessage"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:portType name="IADAWsData_20120415">
+		<wsdl:operation name="PER_find_cognome_nome_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_cognome_nome_20120415" message="tns:IADAWsData_20120415_PER_find_cognome_nome_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_cognome_nome_20120415Response" message="tns:IADAWsData_20120415_PER_find_cognome_nome_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_id_ada_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_id_ada_20120415" message="tns:IADAWsData_20120415_PER_find_id_ada_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_id_ada_20120415Response" message="tns:IADAWsData_20120415_PER_find_id_ada_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_posizioni_id_ada_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_posizioni_id_ada_20120415" message="tns:IADAWsData_20120415_PER_find_posizioni_id_ada_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_posizioni_id_ada_20120415Response" message="tns:IADAWsData_20120415_PER_find_posizioni_id_ada_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="VOIP_find_entity_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/VOIP_find_entity_20120415" message="tns:IADAWsData_20120415_VOIP_find_entity_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/VOIP_find_entity_20120415Response" message="tns:IADAWsData_20120415_VOIP_find_entity_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_all_posizioni_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_all_posizioni_20120415" message="tns:IADAWsData_20120415_PER_find_all_posizioni_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_all_posizioni_20120415Response" message="tns:IADAWsData_20120415_PER_find_all_posizioni_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ACCOUNT_find_id_ada_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ACCOUNT_find_id_ada_20120415" message="tns:IADAWsData_20120415_ACCOUNT_find_id_ada_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ACCOUNT_find_id_ada_20120415Response" message="tns:IADAWsData_20120415_ACCOUNT_find_id_ada_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="GOG_gerarchia_sto_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/GOG_gerarchia_sto_20120415" message="tns:IADAWsData_20120415_GOG_gerarchia_sto_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/GOG_gerarchia_sto_20120415Response" message="tns:IADAWsData_20120415_GOG_gerarchia_sto_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="CODE_find_id_fonte_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/CODE_find_id_fonte_20120415" message="tns:IADAWsData_20120415_CODE_find_id_fonte_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/CODE_find_id_fonte_20120415Response" message="tns:IADAWsData_20120415_CODE_find_id_fonte_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="CODE_find_id_ada_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/CODE_find_id_ada_20120415" message="tns:IADAWsData_20120415_CODE_find_id_ada_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/CODE_find_id_ada_20120415Response" message="tns:IADAWsData_20120415_CODE_find_id_ada_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="DESCRIZIONE_find_oga_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/DESCRIZIONE_find_oga_20120415" message="tns:IADAWsData_20120415_DESCRIZIONE_find_oga_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/DESCRIZIONE_find_oga_20120415Response" message="tns:IADAWsData_20120415_DESCRIZIONE_find_oga_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="DESCRIZIONE_find_atr_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/DESCRIZIONE_find_atr_20120415" message="tns:IADAWsData_20120415_DESCRIZIONE_find_atr_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/DESCRIZIONE_find_atr_20120415Response" message="tns:IADAWsData_20120415_DESCRIZIONE_find_atr_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ADA_ID_find_id_acc_da_username_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ADA_ID_find_id_acc_da_username_20120415" message="tns:IADAWsData_20120415_ADA_ID_find_id_acc_da_username_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ADA_ID_find_id_acc_da_username_20120415Response" message="tns:IADAWsData_20120415_ADA_ID_find_id_acc_da_username_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ADA_ID_find_id_ada_da_username_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ADA_ID_find_id_ada_da_username_20120415" message="tns:IADAWsData_20120415_ADA_ID_find_id_ada_da_username_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ADA_ID_find_id_ada_da_username_20120415Response" message="tns:IADAWsData_20120415_ADA_ID_find_id_ada_da_username_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415" message="tns:IADAWsData_20120415_ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415Response" message="tns:IADAWsData_20120415_ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ACCOUNT_MEMBERSHIP_find_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ACCOUNT_MEMBERSHIP_find_20120415" message="tns:IADAWsData_20120415_ACCOUNT_MEMBERSHIP_find_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ACCOUNT_MEMBERSHIP_find_20120415Response" message="tns:IADAWsData_20120415_ACCOUNT_MEMBERSHIP_find_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="GROUP_MEMBER_find_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/GROUP_MEMBER_find_20120415" message="tns:IADAWsData_20120415_GROUP_MEMBER_find_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/GROUP_MEMBER_find_20120415Response" message="tns:IADAWsData_20120415_GROUP_MEMBER_find_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="GROUP_find_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/GROUP_find_20120415" message="tns:IADAWsData_20120415_GROUP_find_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/GROUP_find_20120415Response" message="tns:IADAWsData_20120415_GROUP_find_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_codici_base_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_codici_base_20120415" message="tns:IADAWsData_20120415_PER_find_codici_base_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_codici_base_20120415Response" message="tns:IADAWsData_20120415_PER_find_codici_base_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="RECAPITO_find_oga_acc_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/RECAPITO_find_oga_acc_20120415" message="tns:IADAWsData_20120415_RECAPITO_find_oga_acc_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/RECAPITO_find_oga_acc_20120415Response" message="tns:IADAWsData_20120415_RECAPITO_find_oga_acc_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_find_all_posizioni_date_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_all_posizioni_date_20120415" message="tns:IADAWsData_20120415_PER_find_all_posizioni_date_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_find_all_posizioni_date_20120415Response" message="tns:IADAWsData_20120415_PER_find_all_posizioni_date_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="ADI_find_all_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ADI_find_all_20120415" message="tns:IADAWsData_20120415_ADI_find_all_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/ADI_find_all_20120415Response" message="tns:IADAWsData_20120415_ADI_find_all_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="SSD_find_all_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/SSD_find_all_20120415" message="tns:IADAWsData_20120415_SSD_find_all_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/SSD_find_all_20120415Response" message="tns:IADAWsData_20120415_SSD_find_all_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="APE_find_all_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/APE_find_all_20120415" message="tns:IADAWsData_20120415_APE_find_all_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/APE_find_all_20120415Response" message="tns:IADAWsData_20120415_APE_find_all_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_check_identity_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_check_identity_20120415" message="tns:IADAWsData_20120415_PER_check_identity_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_check_identity_20120415Response" message="tns:IADAWsData_20120415_PER_check_identity_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="PER_attivita_didattiche_sostenute_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_attivita_didattiche_sostenute_20120415" message="tns:IADAWsData_20120415_PER_attivita_didattiche_sostenute_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/PER_attivita_didattiche_sostenute_20120415Response" message="tns:IADAWsData_20120415_PER_attivita_didattiche_sostenute_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="LBS_libretto_studente_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/LBS_libretto_studente_20120415" message="tns:IADAWsData_20120415_LBS_libretto_studente_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/LBS_libretto_studente_20120415Response" message="tns:IADAWsData_20120415_LBS_libretto_studente_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="AES_anagrafica_estesa_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/AES_anagrafica_estesa_20120415" message="tns:IADAWsData_20120415_AES_anagrafica_estesa_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/AES_anagrafica_estesa_20120415Response" message="tns:IADAWsData_20120415_AES_anagrafica_estesa_20120415_OutputMessage"/>
+		</wsdl:operation>
+		<wsdl:operation name="UCS_ultima_carriera_studente_20120415">
+			<wsdl:input wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/UCS_ultima_carriera_studente_20120415" message="tns:IADAWsData_20120415_UCS_ultima_carriera_studente_20120415_InputMessage"/>
+			<wsdl:output wsaw:Action="http://Data.ADAWs.unitn.it/IADAWsData_20120415/UCS_ultima_carriera_studente_20120415Response" message="tns:IADAWsData_20120415_UCS_ultima_carriera_studente_20120415_OutputMessage"/>
+		</wsdl:operation>
+	</wsdl:portType>
+</wsdl:definitions>
