@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>eu.trentorise.smartcampus</groupId>
 	<artifactId>smartcampus.adaconnector</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,7 +38,7 @@
 							<wsdlFiles>
 								<wsdlFile>ADAWsData.svc.wsdl</wsdlFile>
 							</wsdlFiles>
-							<wsdlLocation>http://www5.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl</wsdlLocation>
+							<wsdlLocation>http://webapps.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl</wsdlLocation>
 							<sourceDestDir>${basedir}/src/main/java</sourceDestDir>
 							<packageName>smartcampus.ada</packageName>
 							<xnocompile>true</xnocompile>
