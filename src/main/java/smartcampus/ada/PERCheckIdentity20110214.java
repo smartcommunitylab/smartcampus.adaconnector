@@ -11,9 +11,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -72,7 +72,7 @@ public class PERCheckIdentity20110214 {
     protected JAXBElement<Double> indiceRigiditaFuzzy;
 
     /**
-     * Gets the value of the cognome property.
+     * Recupera il valore della proprietà cognome.
      * 
      * @return
      *     possible object is
@@ -84,7 +84,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Sets the value of the cognome property.
+     * Imposta il valore della proprietà cognome.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +96,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Gets the value of the nome property.
+     * Recupera il valore della proprietà nome.
      * 
      * @return
      *     possible object is
@@ -108,7 +108,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Sets the value of the nome property.
+     * Imposta il valore della proprietà nome.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +120,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Gets the value of the codfis property.
+     * Recupera il valore della proprietà codfis.
      * 
      * @return
      *     possible object is
@@ -132,7 +132,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Sets the value of the codfis property.
+     * Imposta il valore della proprietà codfis.
      * 
      * @param value
      *     allowed object is
@@ -144,7 +144,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Gets the value of the locIdAtr property.
+     * Recupera il valore della proprietà locIdAtr.
      * 
      * @return
      *     possible object is
@@ -156,7 +156,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Sets the value of the locIdAtr property.
+     * Imposta il valore della proprietà locIdAtr.
      * 
      * @param value
      *     allowed object is
@@ -168,7 +168,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Gets the value of the nazIdAtr property.
+     * Recupera il valore della proprietà nazIdAtr.
      * 
      * @return
      *     possible object is
@@ -180,7 +180,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Sets the value of the nazIdAtr property.
+     * Imposta il valore della proprietà nazIdAtr.
      * 
      * @param value
      *     allowed object is
@@ -192,7 +192,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Gets the value of the dataNasc property.
+     * Recupera il valore della proprietà dataNasc.
      * 
      * @return
      *     possible object is
@@ -204,7 +204,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Sets the value of the dataNasc property.
+     * Imposta il valore della proprietà dataNasc.
      * 
      * @param value
      *     allowed object is
@@ -216,7 +216,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Gets the value of the sesso property.
+     * Recupera il valore della proprietà sesso.
      * 
      * @return
      *     possible object is
@@ -228,7 +228,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Sets the value of the sesso property.
+     * Imposta il valore della proprietà sesso.
      * 
      * @param value
      *     allowed object is
@@ -240,7 +240,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Gets the value of the nomePadre property.
+     * Recupera il valore della proprietà nomePadre.
      * 
      * @return
      *     possible object is
@@ -252,7 +252,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Sets the value of the nomePadre property.
+     * Imposta il valore della proprietà nomePadre.
      * 
      * @param value
      *     allowed object is
@@ -264,7 +264,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Gets the value of the indiceRigiditaFuzzy property.
+     * Recupera il valore della proprietà indiceRigiditaFuzzy.
      * 
      * @return
      *     possible object is
@@ -276,7 +276,7 @@ public class PERCheckIdentity20110214 {
     }
 
     /**
-     * Sets the value of the indiceRigiditaFuzzy property.
+     * Imposta il valore della proprietà indiceRigiditaFuzzy.
      * 
      * @param value
      *     allowed object is

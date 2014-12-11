@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for SETTORE_SD_AREA_CUN complex type.
+ * <p>Classe Java per SETTORE_SD_AREA_CUN complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="SETTORE_SD_AREA_CUN">
@@ -66,7 +66,7 @@ public class SETTORESDAREACUN {
     protected JAXBElement<String> ssdidatr;
 
     /**
-     * Gets the value of the descrizioneareacun property.
+     * Recupera il valore della proprietà descrizioneareacun.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Sets the value of the descrizioneareacun property.
+     * Imposta il valore della proprietà descrizioneareacun.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Gets the value of the descrizionessd property.
+     * Recupera il valore della proprietà descrizionessd.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Sets the value of the descrizionessd property.
+     * Imposta il valore della proprietà descrizionessd.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Gets the value of the fine property.
+     * Recupera il valore della proprietà fine.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Sets the value of the fine property.
+     * Imposta il valore della proprietà fine.
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Gets the value of the idareacun property.
+     * Recupera il valore della proprietà idareacun.
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Sets the value of the idareacun property.
+     * Imposta il valore della proprietà idareacun.
      * 
      * @param value
      *     allowed object is
@@ -162,7 +162,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Gets the value of the idssd property.
+     * Recupera il valore della proprietà idssd.
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Sets the value of the idssd property.
+     * Imposta il valore della proprietà idssd.
      * 
      * @param value
      *     allowed object is
@@ -186,7 +186,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Gets the value of the inizio property.
+     * Recupera il valore della proprietà inizio.
      * 
      * @return
      *     possible object is
@@ -198,7 +198,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Sets the value of the inizio property.
+     * Imposta il valore della proprietà inizio.
      * 
      * @param value
      *     allowed object is
@@ -210,7 +210,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Gets the value of the lingua property.
+     * Recupera il valore della proprietà lingua.
      * 
      * @return
      *     possible object is
@@ -222,7 +222,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Sets the value of the lingua property.
+     * Imposta il valore della proprietà lingua.
      * 
      * @param value
      *     allowed object is
@@ -234,7 +234,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Gets the value of the ssdidatr property.
+     * Recupera il valore della proprietà ssdidatr.
      * 
      * @return
      *     possible object is
@@ -246,7 +246,7 @@ public class SETTORESDAREACUN {
     }
 
     /**
-     * Sets the value of the ssdidatr property.
+     * Imposta il valore della proprietà ssdidatr.
      * 
      * @param value
      *     allowed object is

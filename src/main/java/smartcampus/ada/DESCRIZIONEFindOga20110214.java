@@ -11,9 +11,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -52,7 +52,7 @@ public class DESCRIZIONEFindOga20110214 {
     protected JAXBElement<XMLGregorianCalendar> dataRiferimento;
 
     /**
-     * Gets the value of the idToa property.
+     * Recupera il valore della proprietà idToa.
      * 
      * @return
      *     possible object is
@@ -64,7 +64,7 @@ public class DESCRIZIONEFindOga20110214 {
     }
 
     /**
-     * Sets the value of the idToa property.
+     * Imposta il valore della proprietà idToa.
      * 
      * @param value
      *     allowed object is
@@ -76,7 +76,7 @@ public class DESCRIZIONEFindOga20110214 {
     }
 
     /**
-     * Gets the value of the idLingua property.
+     * Recupera il valore della proprietà idLingua.
      * 
      * @return
      *     possible object is
@@ -88,7 +88,7 @@ public class DESCRIZIONEFindOga20110214 {
     }
 
     /**
-     * Sets the value of the idLingua property.
+     * Imposta il valore della proprietà idLingua.
      * 
      * @param value
      *     allowed object is
@@ -100,7 +100,7 @@ public class DESCRIZIONEFindOga20110214 {
     }
 
     /**
-     * Gets the value of the idAda property.
+     * Recupera il valore della proprietà idAda.
      * 
      * @return
      *     possible object is
@@ -112,7 +112,7 @@ public class DESCRIZIONEFindOga20110214 {
     }
 
     /**
-     * Sets the value of the idAda property.
+     * Imposta il valore della proprietà idAda.
      * 
      * @param value
      *     allowed object is
@@ -124,7 +124,7 @@ public class DESCRIZIONEFindOga20110214 {
     }
 
     /**
-     * Gets the value of the dataRiferimento property.
+     * Recupera il valore della proprietà dataRiferimento.
      * 
      * @return
      *     possible object is
@@ -136,7 +136,7 @@ public class DESCRIZIONEFindOga20110214 {
     }
 
     /**
-     * Sets the value of the dataRiferimento property.
+     * Imposta il valore della proprietà dataRiferimento.
      * 
      * @param value
      *     allowed object is

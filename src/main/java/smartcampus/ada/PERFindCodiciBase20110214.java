@@ -11,9 +11,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -64,7 +64,7 @@ public class PERFindCodiciBase20110214 {
     protected JAXBElement<XMLGregorianCalendar> aData;
 
     /**
-     * Gets the value of the rupIdOga property.
+     * Recupera il valore della proprietà rupIdOga.
      * 
      * @return
      *     possible object is
@@ -76,7 +76,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Sets the value of the rupIdOga property.
+     * Imposta il valore della proprietà rupIdOga.
      * 
      * @param value
      *     allowed object is
@@ -88,7 +88,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Gets the value of the ruoIdOga property.
+     * Recupera il valore della proprietà ruoIdOga.
      * 
      * @return
      *     possible object is
@@ -100,7 +100,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Sets the value of the ruoIdOga property.
+     * Imposta il valore della proprietà ruoIdOga.
      * 
      * @param value
      *     allowed object is
@@ -112,7 +112,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Gets the value of the stoIdOga property.
+     * Recupera il valore della proprietà stoIdOga.
      * 
      * @return
      *     possible object is
@@ -124,7 +124,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Sets the value of the stoIdOga property.
+     * Imposta il valore della proprietà stoIdOga.
      * 
      * @param value
      *     allowed object is
@@ -136,7 +136,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Gets the value of the tsoIdOga property.
+     * Recupera il valore della proprietà tsoIdOga.
      * 
      * @return
      *     possible object is
@@ -148,7 +148,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Sets the value of the tsoIdOga property.
+     * Imposta il valore della proprietà tsoIdOga.
      * 
      * @param value
      *     allowed object is
@@ -160,7 +160,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Gets the value of the froIdAtr property.
+     * Recupera il valore della proprietà froIdAtr.
      * 
      * @return
      *     possible object is
@@ -172,7 +172,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Sets the value of the froIdAtr property.
+     * Imposta il valore della proprietà froIdAtr.
      * 
      * @param value
      *     allowed object is
@@ -184,7 +184,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Gets the value of the daData property.
+     * Recupera il valore della proprietà daData.
      * 
      * @return
      *     possible object is
@@ -196,7 +196,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Sets the value of the daData property.
+     * Imposta il valore della proprietà daData.
      * 
      * @param value
      *     allowed object is
@@ -208,7 +208,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Gets the value of the aData property.
+     * Recupera il valore della proprietà aData.
      * 
      * @return
      *     possible object is
@@ -220,7 +220,7 @@ public class PERFindCodiciBase20110214 {
     }
 
     /**
-     * Sets the value of the aData property.
+     * Imposta il valore della proprietà aData.
      * 
      * @param value
      *     allowed object is

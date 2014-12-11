@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for ADA_description complex type.
+ * <p>Classe Java per ADA_description complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ADA_description">
@@ -58,7 +58,7 @@ public class ADADescription {
     protected JAXBElement<String> lingua;
 
     /**
-     * Gets the value of the descrizione property.
+     * Recupera il valore della proprietà descrizione.
      * 
      * @return
      *     possible object is
@@ -70,7 +70,7 @@ public class ADADescription {
     }
 
     /**
-     * Sets the value of the descrizione property.
+     * Imposta il valore della proprietà descrizione.
      * 
      * @param value
      *     allowed object is
@@ -82,7 +82,7 @@ public class ADADescription {
     }
 
     /**
-     * Gets the value of the fine property.
+     * Recupera il valore della proprietà fine.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class ADADescription {
     }
 
     /**
-     * Sets the value of the fine property.
+     * Imposta il valore della proprietà fine.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class ADADescription {
     }
 
     /**
-     * Gets the value of the idada property.
+     * Recupera il valore della proprietà idada.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class ADADescription {
     }
 
     /**
-     * Sets the value of the idada property.
+     * Imposta il valore della proprietà idada.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class ADADescription {
     }
 
     /**
-     * Gets the value of the idtoa property.
+     * Recupera il valore della proprietà idtoa.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class ADADescription {
     }
 
     /**
-     * Sets the value of the idtoa property.
+     * Imposta il valore della proprietà idtoa.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class ADADescription {
     }
 
     /**
-     * Gets the value of the inizio property.
+     * Recupera il valore della proprietà inizio.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class ADADescription {
     }
 
     /**
-     * Sets the value of the inizio property.
+     * Imposta il valore della proprietà inizio.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class ADADescription {
     }
 
     /**
-     * Gets the value of the lingua property.
+     * Recupera il valore della proprietà lingua.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class ADADescription {
     }
 
     /**
-     * Sets the value of the lingua property.
+     * Imposta il valore della proprietà lingua.
      * 
      * @param value
      *     allowed object is

@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -51,7 +51,7 @@ public class SSDFindAll20110214 {
     protected JAXBElement<String> lingua;
 
     /**
-     * Gets the value of the idAtr property.
+     * Recupera il valore della proprietà idAtr.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class SSDFindAll20110214 {
     }
 
     /**
-     * Sets the value of the idAtr property.
+     * Imposta il valore della proprietà idAtr.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class SSDFindAll20110214 {
     }
 
     /**
-     * Gets the value of the idSsd property.
+     * Recupera il valore della proprietà idSsd.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class SSDFindAll20110214 {
     }
 
     /**
-     * Sets the value of the idSsd property.
+     * Imposta il valore della proprietà idSsd.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class SSDFindAll20110214 {
     }
 
     /**
-     * Gets the value of the idAcu property.
+     * Recupera il valore della proprietà idAcu.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class SSDFindAll20110214 {
     }
 
     /**
-     * Sets the value of the idAcu property.
+     * Imposta il valore della proprietà idAcu.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class SSDFindAll20110214 {
     }
 
     /**
-     * Gets the value of the lingua property.
+     * Recupera il valore della proprietà lingua.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class SSDFindAll20110214 {
     }
 
     /**
-     * Sets the value of the lingua property.
+     * Imposta il valore della proprietà lingua.
      * 
      * @param value
      *     allowed object is

@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for RECAPITO complex type.
+ * <p>Classe Java per RECAPITO complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="RECAPITO">
@@ -77,7 +77,7 @@ public class RECAPITO {
     protected JAXBElement<String> username;
 
     /**
-     * Gets the value of the cellufficio property.
+     * Recupera il valore della proprietà cellufficio.
      * 
      * @return
      *     possible object is
@@ -89,7 +89,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the cellufficio property.
+     * Imposta il valore della proprietà cellufficio.
      * 
      * @param value
      *     allowed object is
@@ -101,7 +101,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the faxufficio property.
+     * Recupera il valore della proprietà faxufficio.
      * 
      * @return
      *     possible object is
@@ -113,7 +113,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the faxufficio property.
+     * Imposta il valore della proprietà faxufficio.
      * 
      * @param value
      *     allowed object is
@@ -125,7 +125,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the homepagepers property.
+     * Recupera il valore della proprietà homepagepers.
      * 
      * @return
      *     possible object is
@@ -137,7 +137,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the homepagepers property.
+     * Imposta il valore della proprietà homepagepers.
      * 
      * @param value
      *     allowed object is
@@ -149,7 +149,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the idaccount property.
+     * Recupera il valore della proprietà idaccount.
      * 
      * @return
      *     possible object is
@@ -161,7 +161,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the idaccount property.
+     * Imposta il valore della proprietà idaccount.
      * 
      * @param value
      *     allowed object is
@@ -173,7 +173,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the idada property.
+     * Recupera il valore della proprietà idada.
      * 
      * @return
      *     possible object is
@@ -185,7 +185,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the idada property.
+     * Imposta il valore della proprietà idada.
      * 
      * @param value
      *     allowed object is
@@ -197,7 +197,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the internocell property.
+     * Recupera il valore della proprietà internocell.
      * 
      * @return
      *     possible object is
@@ -209,7 +209,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the internocell property.
+     * Imposta il valore della proprietà internocell.
      * 
      * @param value
      *     allowed object is
@@ -221,7 +221,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the linkistit property.
+     * Recupera il valore della proprietà linkistit.
      * 
      * @return
      *     possible object is
@@ -233,7 +233,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the linkistit property.
+     * Imposta il valore della proprietà linkistit.
      * 
      * @param value
      *     allowed object is
@@ -245,7 +245,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the mailfisica property.
+     * Recupera il valore della proprietà mailfisica.
      * 
      * @return
      *     possible object is
@@ -257,7 +257,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the mailfisica property.
+     * Imposta il valore della proprietà mailfisica.
      * 
      * @param value
      *     allowed object is
@@ -269,7 +269,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the mailunitn property.
+     * Recupera il valore della proprietà mailunitn.
      * 
      * @return
      *     possible object is
@@ -281,7 +281,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the mailunitn property.
+     * Imposta il valore della proprietà mailunitn.
      * 
      * @param value
      *     allowed object is
@@ -293,7 +293,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the telufficio property.
+     * Recupera il valore della proprietà telufficio.
      * 
      * @return
      *     possible object is
@@ -305,7 +305,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the telufficio property.
+     * Imposta il valore della proprietà telufficio.
      * 
      * @param value
      *     allowed object is
@@ -317,7 +317,7 @@ public class RECAPITO {
     }
 
     /**
-     * Gets the value of the username property.
+     * Recupera il valore della proprietà username.
      * 
      * @return
      *     possible object is
@@ -329,7 +329,7 @@ public class RECAPITO {
     }
 
     /**
-     * Sets the value of the username property.
+     * Imposta il valore della proprietà username.
      * 
      * @param value
      *     allowed object is

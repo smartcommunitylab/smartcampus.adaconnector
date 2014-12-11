@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -39,7 +39,7 @@ public class GOGGerarchiaSto20091229Response {
     protected JAXBElement<ArrayOfGOGRelazioneGerarchica> gogGerarchiaSto20091229Result;
 
     /**
-     * Gets the value of the gogGerarchiaSto20091229Result property.
+     * Recupera il valore della proprietà gogGerarchiaSto20091229Result.
      * 
      * @return
      *     possible object is
@@ -51,7 +51,7 @@ public class GOGGerarchiaSto20091229Response {
     }
 
     /**
-     * Sets the value of the gogGerarchiaSto20091229Result property.
+     * Imposta il valore della proprietà gogGerarchiaSto20091229Result.
      * 
      * @param value
      *     allowed object is

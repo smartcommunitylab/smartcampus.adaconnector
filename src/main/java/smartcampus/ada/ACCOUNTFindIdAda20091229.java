@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -43,7 +43,7 @@ public class ACCOUNTFindIdAda20091229 {
     protected JAXBElement<String> idAccount;
 
     /**
-     * Gets the value of the idAda property.
+     * Recupera il valore della proprietà idAda.
      * 
      * @return
      *     possible object is
@@ -55,7 +55,7 @@ public class ACCOUNTFindIdAda20091229 {
     }
 
     /**
-     * Sets the value of the idAda property.
+     * Imposta il valore della proprietà idAda.
      * 
      * @param value
      *     allowed object is
@@ -67,7 +67,7 @@ public class ACCOUNTFindIdAda20091229 {
     }
 
     /**
-     * Gets the value of the idAccount property.
+     * Recupera il valore della proprietà idAccount.
      * 
      * @return
      *     possible object is
@@ -79,7 +79,7 @@ public class ACCOUNTFindIdAda20091229 {
     }
 
     /**
-     * Sets the value of the idAccount property.
+     * Imposta il valore della proprietà idAccount.
      * 
      * @param value
      *     allowed object is

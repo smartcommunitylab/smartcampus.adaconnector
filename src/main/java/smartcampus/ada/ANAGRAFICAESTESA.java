@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ANAGRAFICA_ESTESA complex type.
+ * <p>Classe Java per ANAGRAFICA_ESTESA complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ANAGRAFICA_ESTESA">
@@ -181,7 +181,7 @@ public class ANAGRAFICAESTESA {
     protected JAXBElement<String> residenzavia;
 
     /**
-     * Gets the value of the anagraficavalida property.
+     * Recupera il valore della proprietà anagraficavalida.
      * 
      * @return
      *     possible object is
@@ -193,7 +193,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the anagraficavalida property.
+     * Imposta il valore della proprietà anagraficavalida.
      * 
      * @param value
      *     allowed object is
@@ -205,7 +205,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the cellulare property.
+     * Recupera il valore della proprietà cellulare.
      * 
      * @return
      *     possible object is
@@ -217,7 +217,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the cellulare property.
+     * Imposta il valore della proprietà cellulare.
      * 
      * @param value
      *     allowed object is
@@ -229,7 +229,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the descrizionecittadinanzaen property.
+     * Recupera il valore della proprietà descrizionecittadinanzaen.
      * 
      * @return
      *     possible object is
@@ -241,7 +241,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the descrizionecittadinanzaen property.
+     * Imposta il valore della proprietà descrizionecittadinanzaen.
      * 
      * @param value
      *     allowed object is
@@ -253,7 +253,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the descrizionecittadinanzait property.
+     * Recupera il valore della proprietà descrizionecittadinanzait.
      * 
      * @return
      *     possible object is
@@ -265,7 +265,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the descrizionecittadinanzait property.
+     * Imposta il valore della proprietà descrizionecittadinanzait.
      * 
      * @param value
      *     allowed object is
@@ -277,7 +277,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domiciliocap property.
+     * Recupera il valore della proprietà domiciliocap.
      * 
      * @return
      *     possible object is
@@ -289,7 +289,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domiciliocap property.
+     * Imposta il valore della proprietà domiciliocap.
      * 
      * @param value
      *     allowed object is
@@ -301,7 +301,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domiciliocittastraniera property.
+     * Recupera il valore della proprietà domiciliocittastraniera.
      * 
      * @return
      *     possible object is
@@ -313,7 +313,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domiciliocittastraniera property.
+     * Imposta il valore della proprietà domiciliocittastraniera.
      * 
      * @param value
      *     allowed object is
@@ -325,7 +325,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domiciliocomunedescrizioneen property.
+     * Recupera il valore della proprietà domiciliocomunedescrizioneen.
      * 
      * @return
      *     possible object is
@@ -337,7 +337,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domiciliocomunedescrizioneen property.
+     * Imposta il valore della proprietà domiciliocomunedescrizioneen.
      * 
      * @param value
      *     allowed object is
@@ -349,7 +349,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domiciliocomunedescrizioneit property.
+     * Recupera il valore della proprietà domiciliocomunedescrizioneit.
      * 
      * @return
      *     possible object is
@@ -361,7 +361,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domiciliocomunedescrizioneit property.
+     * Imposta il valore della proprietà domiciliocomunedescrizioneit.
      * 
      * @param value
      *     allowed object is
@@ -373,7 +373,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domiciliofrazione property.
+     * Recupera il valore della proprietà domiciliofrazione.
      * 
      * @return
      *     possible object is
@@ -385,7 +385,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domiciliofrazione property.
+     * Imposta il valore della proprietà domiciliofrazione.
      * 
      * @param value
      *     allowed object is
@@ -397,7 +397,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domicilioidadacomune property.
+     * Recupera il valore della proprietà domicilioidadacomune.
      * 
      * @return
      *     possible object is
@@ -409,7 +409,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domicilioidadacomune property.
+     * Imposta il valore della proprietà domicilioidadacomune.
      * 
      * @param value
      *     allowed object is
@@ -421,7 +421,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domicilioidadanazione property.
+     * Recupera il valore della proprietà domicilioidadanazione.
      * 
      * @return
      *     possible object is
@@ -433,7 +433,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domicilioidadanazione property.
+     * Imposta il valore della proprietà domicilioidadanazione.
      * 
      * @param value
      *     allowed object is
@@ -445,7 +445,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domicilionazionedescrizioneen property.
+     * Recupera il valore della proprietà domicilionazionedescrizioneen.
      * 
      * @return
      *     possible object is
@@ -457,7 +457,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domicilionazionedescrizioneen property.
+     * Imposta il valore della proprietà domicilionazionedescrizioneen.
      * 
      * @param value
      *     allowed object is
@@ -469,7 +469,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domicilionazionedescrizioneit property.
+     * Recupera il valore della proprietà domicilionazionedescrizioneit.
      * 
      * @return
      *     possible object is
@@ -481,7 +481,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domicilionazionedescrizioneit property.
+     * Imposta il valore della proprietà domicilionazionedescrizioneit.
      * 
      * @param value
      *     allowed object is
@@ -493,7 +493,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domicilionumerocivico property.
+     * Recupera il valore della proprietà domicilionumerocivico.
      * 
      * @return
      *     possible object is
@@ -505,7 +505,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domicilionumerocivico property.
+     * Imposta il valore della proprietà domicilionumerocivico.
      * 
      * @param value
      *     allowed object is
@@ -517,7 +517,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domicilioprefissointernazionale property.
+     * Recupera il valore della proprietà domicilioprefissointernazionale.
      * 
      * @return
      *     possible object is
@@ -529,7 +529,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domicilioprefissointernazionale property.
+     * Imposta il valore della proprietà domicilioprefissointernazionale.
      * 
      * @param value
      *     allowed object is
@@ -541,7 +541,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domiciliopresso property.
+     * Recupera il valore della proprietà domiciliopresso.
      * 
      * @return
      *     possible object is
@@ -553,7 +553,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domiciliopresso property.
+     * Imposta il valore della proprietà domiciliopresso.
      * 
      * @param value
      *     allowed object is
@@ -565,7 +565,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domicilioprovincia property.
+     * Recupera il valore della proprietà domicilioprovincia.
      * 
      * @return
      *     possible object is
@@ -577,7 +577,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domicilioprovincia property.
+     * Imposta il valore della proprietà domicilioprovincia.
      * 
      * @param value
      *     allowed object is
@@ -589,7 +589,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domiciliotelefono property.
+     * Recupera il valore della proprietà domiciliotelefono.
      * 
      * @return
      *     possible object is
@@ -601,7 +601,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domiciliotelefono property.
+     * Imposta il valore della proprietà domiciliotelefono.
      * 
      * @param value
      *     allowed object is
@@ -613,7 +613,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the domiciliovia property.
+     * Recupera il valore della proprietà domiciliovia.
      * 
      * @return
      *     possible object is
@@ -625,7 +625,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the domiciliovia property.
+     * Imposta il valore della proprietà domiciliovia.
      * 
      * @param value
      *     allowed object is
@@ -637,7 +637,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the fax property.
+     * Recupera il valore della proprietà fax.
      * 
      * @return
      *     possible object is
@@ -649,7 +649,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the fax property.
+     * Imposta il valore della proprietà fax.
      * 
      * @param value
      *     allowed object is
@@ -661,7 +661,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the idada property.
+     * Recupera il valore della proprietà idada.
      * 
      * @return
      *     possible object is
@@ -673,7 +673,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the idada property.
+     * Imposta il valore della proprietà idada.
      * 
      * @param value
      *     allowed object is
@@ -685,7 +685,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the idadacittadinanza property.
+     * Recupera il valore della proprietà idadacittadinanza.
      * 
      * @return
      *     possible object is
@@ -697,7 +697,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the idadacittadinanza property.
+     * Imposta il valore della proprietà idadacittadinanza.
      * 
      * @param value
      *     allowed object is
@@ -709,7 +709,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the idgiadapersona property.
+     * Recupera il valore della proprietà idgiadapersona.
      * 
      * @return
      *     possible object is
@@ -721,7 +721,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the idgiadapersona property.
+     * Imposta il valore della proprietà idgiadapersona.
      * 
      * @param value
      *     allowed object is
@@ -733,7 +733,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzacap property.
+     * Recupera il valore della proprietà residenzacap.
      * 
      * @return
      *     possible object is
@@ -745,7 +745,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzacap property.
+     * Imposta il valore della proprietà residenzacap.
      * 
      * @param value
      *     allowed object is
@@ -757,7 +757,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzacittastraniera property.
+     * Recupera il valore della proprietà residenzacittastraniera.
      * 
      * @return
      *     possible object is
@@ -769,7 +769,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzacittastraniera property.
+     * Imposta il valore della proprietà residenzacittastraniera.
      * 
      * @param value
      *     allowed object is
@@ -781,7 +781,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzacomunedescrizioneen property.
+     * Recupera il valore della proprietà residenzacomunedescrizioneen.
      * 
      * @return
      *     possible object is
@@ -793,7 +793,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzacomunedescrizioneen property.
+     * Imposta il valore della proprietà residenzacomunedescrizioneen.
      * 
      * @param value
      *     allowed object is
@@ -805,7 +805,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzacomunedescrizioneit property.
+     * Recupera il valore della proprietà residenzacomunedescrizioneit.
      * 
      * @return
      *     possible object is
@@ -817,7 +817,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzacomunedescrizioneit property.
+     * Imposta il valore della proprietà residenzacomunedescrizioneit.
      * 
      * @param value
      *     allowed object is
@@ -829,7 +829,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzafrazione property.
+     * Recupera il valore della proprietà residenzafrazione.
      * 
      * @return
      *     possible object is
@@ -841,7 +841,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzafrazione property.
+     * Imposta il valore della proprietà residenzafrazione.
      * 
      * @param value
      *     allowed object is
@@ -853,7 +853,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzaidadacomune property.
+     * Recupera il valore della proprietà residenzaidadacomune.
      * 
      * @return
      *     possible object is
@@ -865,7 +865,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzaidadacomune property.
+     * Imposta il valore della proprietà residenzaidadacomune.
      * 
      * @param value
      *     allowed object is
@@ -877,7 +877,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzaidadanazione property.
+     * Recupera il valore della proprietà residenzaidadanazione.
      * 
      * @return
      *     possible object is
@@ -889,7 +889,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzaidadanazione property.
+     * Imposta il valore della proprietà residenzaidadanazione.
      * 
      * @param value
      *     allowed object is
@@ -901,7 +901,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzanazionedescrizioneen property.
+     * Recupera il valore della proprietà residenzanazionedescrizioneen.
      * 
      * @return
      *     possible object is
@@ -913,7 +913,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzanazionedescrizioneen property.
+     * Imposta il valore della proprietà residenzanazionedescrizioneen.
      * 
      * @param value
      *     allowed object is
@@ -925,7 +925,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzanazionedescrizioneit property.
+     * Recupera il valore della proprietà residenzanazionedescrizioneit.
      * 
      * @return
      *     possible object is
@@ -937,7 +937,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzanazionedescrizioneit property.
+     * Imposta il valore della proprietà residenzanazionedescrizioneit.
      * 
      * @param value
      *     allowed object is
@@ -949,7 +949,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzanumerocivico property.
+     * Recupera il valore della proprietà residenzanumerocivico.
      * 
      * @return
      *     possible object is
@@ -961,7 +961,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzanumerocivico property.
+     * Imposta il valore della proprietà residenzanumerocivico.
      * 
      * @param value
      *     allowed object is
@@ -973,7 +973,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzaprefissointernazionale property.
+     * Recupera il valore della proprietà residenzaprefissointernazionale.
      * 
      * @return
      *     possible object is
@@ -985,7 +985,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzaprefissointernazionale property.
+     * Imposta il valore della proprietà residenzaprefissointernazionale.
      * 
      * @param value
      *     allowed object is
@@ -997,7 +997,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzaprovincia property.
+     * Recupera il valore della proprietà residenzaprovincia.
      * 
      * @return
      *     possible object is
@@ -1009,7 +1009,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzaprovincia property.
+     * Imposta il valore della proprietà residenzaprovincia.
      * 
      * @param value
      *     allowed object is
@@ -1021,7 +1021,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzatelefono property.
+     * Recupera il valore della proprietà residenzatelefono.
      * 
      * @return
      *     possible object is
@@ -1033,7 +1033,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzatelefono property.
+     * Imposta il valore della proprietà residenzatelefono.
      * 
      * @param value
      *     allowed object is
@@ -1045,7 +1045,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Gets the value of the residenzavia property.
+     * Recupera il valore della proprietà residenzavia.
      * 
      * @return
      *     possible object is
@@ -1057,7 +1057,7 @@ public class ANAGRAFICAESTESA {
     }
 
     /**
-     * Sets the value of the residenzavia property.
+     * Imposta il valore della proprietà residenzavia.
      * 
      * @param value
      *     allowed object is

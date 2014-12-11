@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for GROUP_member complex type.
+ * <p>Classe Java per GROUP_member complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="GROUP_member">
@@ -45,7 +45,7 @@ public class GROUPMember {
     protected JAXBElement<String> username;
 
     /**
-     * Gets the value of the idacc property.
+     * Recupera il valore della proprietà idacc.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class GROUPMember {
     }
 
     /**
-     * Sets the value of the idacc property.
+     * Imposta il valore della proprietà idacc.
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class GROUPMember {
     }
 
     /**
-     * Gets the value of the idada property.
+     * Recupera il valore della proprietà idada.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class GROUPMember {
     }
 
     /**
-     * Sets the value of the idada property.
+     * Imposta il valore della proprietà idada.
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class GROUPMember {
     }
 
     /**
-     * Gets the value of the username property.
+     * Recupera il valore della proprietà username.
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class GROUPMember {
     }
 
     /**
-     * Sets the value of the username property.
+     * Imposta il valore della proprietà username.
      * 
      * @param value
      *     allowed object is

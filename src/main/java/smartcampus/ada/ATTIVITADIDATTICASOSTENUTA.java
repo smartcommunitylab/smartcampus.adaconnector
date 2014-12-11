@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for ATTIVITA_DIDATTICA_SOSTENUTA complex type.
+ * <p>Classe Java per ATTIVITA_DIDATTICA_SOSTENUTA complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ATTIVITA_DIDATTICA_SOSTENUTA">
@@ -54,7 +54,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     protected JAXBElement<String> idesse3ATTIVITADIDATTICA;
 
     /**
-     * Gets the value of the codesse3ATTIVITADIDATTICA property.
+     * Recupera il valore della proprietà codesse3ATTIVITADIDATTICA.
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     }
 
     /**
-     * Sets the value of the codesse3ATTIVITADIDATTICA property.
+     * Imposta il valore della proprietà codesse3ATTIVITADIDATTICA.
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     }
 
     /**
-     * Gets the value of the datasuperamento property.
+     * Recupera il valore della proprietà datasuperamento.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     }
 
     /**
-     * Sets the value of the datasuperamento property.
+     * Imposta il valore della proprietà datasuperamento.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     }
 
     /**
-     * Gets the value of the descrizioneattivitadidattica property.
+     * Recupera il valore della proprietà descrizioneattivitadidattica.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     }
 
     /**
-     * Sets the value of the descrizioneattivitadidattica property.
+     * Imposta il valore della proprietà descrizioneattivitadidattica.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     }
 
     /**
-     * Gets the value of the idada property.
+     * Recupera il valore della proprietà idada.
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     }
 
     /**
-     * Sets the value of the idada property.
+     * Imposta il valore della proprietà idada.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     }
 
     /**
-     * Gets the value of the idesse3ATTIVITADIDATTICA property.
+     * Recupera il valore della proprietà idesse3ATTIVITADIDATTICA.
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class ATTIVITADIDATTICASOSTENUTA {
     }
 
     /**
-     * Sets the value of the idesse3ATTIVITADIDATTICA property.
+     * Imposta il valore della proprietà idesse3ATTIVITADIDATTICA.
      * 
      * @param value
      *     allowed object is

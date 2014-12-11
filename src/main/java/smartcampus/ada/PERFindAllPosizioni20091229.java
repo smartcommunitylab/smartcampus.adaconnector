@@ -11,9 +11,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -44,7 +44,7 @@ public class PERFindAllPosizioni20091229 {
     protected JAXBElement<XMLGregorianCalendar> dataRiferimento;
 
     /**
-     * Gets the value of the idAda property.
+     * Recupera il valore della proprietà idAda.
      * 
      * @return
      *     possible object is
@@ -56,7 +56,7 @@ public class PERFindAllPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the idAda property.
+     * Imposta il valore della proprietà idAda.
      * 
      * @param value
      *     allowed object is
@@ -68,7 +68,7 @@ public class PERFindAllPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the dataRiferimento property.
+     * Recupera il valore della proprietà dataRiferimento.
      * 
      * @return
      *     possible object is
@@ -80,7 +80,7 @@ public class PERFindAllPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the dataRiferimento property.
+     * Imposta il valore della proprietà dataRiferimento.
      * 
      * @param value
      *     allowed object is

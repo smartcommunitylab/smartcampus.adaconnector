@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for ACCOUNT_detail complex type.
+ * <p>Classe Java per ACCOUNT_detail complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ACCOUNT_detail">
@@ -66,7 +66,7 @@ public class ACCOUNTDetail {
     protected JAXBElement<String> username;
 
     /**
-     * Gets the value of the fine property.
+     * Recupera il valore della proprietà fine.
      * 
      * @return
      *     possible object is
@@ -78,7 +78,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Sets the value of the fine property.
+     * Imposta il valore della proprietà fine.
      * 
      * @param value
      *     allowed object is
@@ -90,7 +90,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Gets the value of the idacc property.
+     * Recupera il valore della proprietà idacc.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Sets the value of the idacc property.
+     * Imposta il valore della proprietà idacc.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Gets the value of the idada property.
+     * Recupera il valore della proprietà idada.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Sets the value of the idada property.
+     * Imposta il valore della proprietà idada.
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Gets the value of the idpoa property.
+     * Recupera il valore della proprietà idpoa.
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Sets the value of the idpoa property.
+     * Imposta il valore della proprietà idpoa.
      * 
      * @param value
      *     allowed object is
@@ -162,7 +162,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Gets the value of the idtoa property.
+     * Recupera il valore della proprietà idtoa.
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Sets the value of the idtoa property.
+     * Imposta il valore della proprietà idtoa.
      * 
      * @param value
      *     allowed object is
@@ -186,7 +186,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Gets the value of the inizio property.
+     * Recupera il valore della proprietà inizio.
      * 
      * @return
      *     possible object is
@@ -198,7 +198,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Sets the value of the inizio property.
+     * Imposta il valore della proprietà inizio.
      * 
      * @param value
      *     allowed object is
@@ -210,7 +210,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Gets the value of the stato property.
+     * Recupera il valore della proprietà stato.
      * 
      * @return
      *     possible object is
@@ -222,7 +222,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Sets the value of the stato property.
+     * Imposta il valore della proprietà stato.
      * 
      * @param value
      *     allowed object is
@@ -234,7 +234,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Gets the value of the username property.
+     * Recupera il valore della proprietà username.
      * 
      * @return
      *     possible object is
@@ -246,7 +246,7 @@ public class ACCOUNTDetail {
     }
 
     /**
-     * Sets the value of the username property.
+     * Imposta il valore della proprietà username.
      * 
      * @param value
      *     allowed object is

@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for LIBRETTO_STUDENTE complex type.
+ * <p>Classe Java per LIBRETTO_STUDENTE complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="LIBRETTO_STUDENTE">
@@ -90,7 +90,7 @@ public class LIBRETTOSTUDENTE {
     protected JAXBElement<Long> voto;
 
     /**
-     * Gets the value of the aaofferta property.
+     * Recupera il valore della proprietà aaofferta.
      * 
      * @return
      *     possible object is
@@ -102,7 +102,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the aaofferta property.
+     * Imposta il valore della proprietà aaofferta.
      * 
      * @param value
      *     allowed object is
@@ -114,7 +114,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the codesse3ATTIVITADIDATTICA property.
+     * Recupera il valore della proprietà codesse3ATTIVITADIDATTICA.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the codesse3ATTIVITADIDATTICA property.
+     * Imposta il valore della proprietà codesse3ATTIVITADIDATTICA.
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the datasuperamento property.
+     * Recupera il valore della proprietà datasuperamento.
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the datasuperamento property.
+     * Imposta il valore della proprietà datasuperamento.
      * 
      * @param value
      *     allowed object is
@@ -162,7 +162,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the descrizioneattivitadidattica property.
+     * Recupera il valore della proprietà descrizioneattivitadidattica.
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the descrizioneattivitadidattica property.
+     * Imposta il valore della proprietà descrizioneattivitadidattica.
      * 
      * @param value
      *     allowed object is
@@ -186,7 +186,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the idada property.
+     * Recupera il valore della proprietà idada.
      * 
      * @return
      *     possible object is
@@ -198,7 +198,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the idada property.
+     * Imposta il valore della proprietà idada.
      * 
      * @param value
      *     allowed object is
@@ -210,7 +210,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the idesse3ATTIVITADIDATTICA property.
+     * Recupera il valore della proprietà idesse3ATTIVITADIDATTICA.
      * 
      * @return
      *     possible object is
@@ -222,7 +222,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the idesse3ATTIVITADIDATTICA property.
+     * Imposta il valore della proprietà idesse3ATTIVITADIDATTICA.
      * 
      * @param value
      *     allowed object is
@@ -234,7 +234,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the idgiadapersona property.
+     * Recupera il valore della proprietà idgiadapersona.
      * 
      * @return
      *     possible object is
@@ -246,7 +246,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the idgiadapersona property.
+     * Imposta il valore della proprietà idgiadapersona.
      * 
      * @param value
      *     allowed object is
@@ -258,7 +258,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the lode property.
+     * Recupera il valore della proprietà lode.
      * 
      * @return
      *     possible object is
@@ -270,7 +270,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the lode property.
+     * Imposta il valore della proprietà lode.
      * 
      * @param value
      *     allowed object is
@@ -282,7 +282,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the modalitavalutazione property.
+     * Recupera il valore della proprietà modalitavalutazione.
      * 
      * @return
      *     possible object is
@@ -294,7 +294,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the modalitavalutazione property.
+     * Imposta il valore della proprietà modalitavalutazione.
      * 
      * @param value
      *     allowed object is
@@ -306,7 +306,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the nomedia property.
+     * Recupera il valore della proprietà nomedia.
      * 
      * @return
      *     possible object is
@@ -318,7 +318,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the nomedia property.
+     * Imposta il valore della proprietà nomedia.
      * 
      * @param value
      *     allowed object is
@@ -330,7 +330,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the peso property.
+     * Recupera il valore della proprietà peso.
      * 
      * @return
      *     possible object is
@@ -342,7 +342,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the peso property.
+     * Imposta il valore della proprietà peso.
      * 
      * @param value
      *     allowed object is
@@ -354,7 +354,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the stato property.
+     * Recupera il valore della proprietà stato.
      * 
      * @return
      *     possible object is
@@ -366,7 +366,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the stato property.
+     * Imposta il valore della proprietà stato.
      * 
      * @param value
      *     allowed object is
@@ -378,7 +378,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the tipogiudizio property.
+     * Recupera il valore della proprietà tipogiudizio.
      * 
      * @return
      *     possible object is
@@ -390,7 +390,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the tipogiudizio property.
+     * Imposta il valore della proprietà tipogiudizio.
      * 
      * @param value
      *     allowed object is
@@ -402,7 +402,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Gets the value of the voto property.
+     * Recupera il valore della proprietà voto.
      * 
      * @return
      *     possible object is
@@ -414,7 +414,7 @@ public class LIBRETTOSTUDENTE {
     }
 
     /**
-     * Sets the value of the voto property.
+     * Imposta il valore della proprietà voto.
      * 
      * @param value
      *     allowed object is

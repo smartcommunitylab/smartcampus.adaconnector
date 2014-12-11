@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for ULTIMA_CARRIERA_STUDENTE complex type.
+ * <p>Classe Java per ULTIMA_CARRIERA_STUDENTE complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ULTIMA_CARRIERA_STUDENTE">
@@ -114,7 +114,7 @@ public class ULTIMACARRIERASTUDENTE {
     protected JAXBElement<Long> numeroesamisuperati;
 
     /**
-     * Gets the value of the annocorso property.
+     * Recupera il valore della proprietà annocorso.
      * 
      * @return
      *     possible object is
@@ -126,7 +126,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the annocorso property.
+     * Imposta il valore della proprietà annocorso.
      * 
      * @param value
      *     allowed object is
@@ -138,7 +138,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the annoiscrizione property.
+     * Recupera il valore della proprietà annoiscrizione.
      * 
      * @return
      *     possible object is
@@ -150,7 +150,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the annoiscrizione property.
+     * Imposta il valore della proprietà annoiscrizione.
      * 
      * @param value
      *     allowed object is
@@ -162,7 +162,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the attesadilaurea property.
+     * Recupera il valore della proprietà attesadilaurea.
      * 
      * @return
      *     possible object is
@@ -174,7 +174,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the attesadilaurea property.
+     * Imposta il valore della proprietà attesadilaurea.
      * 
      * @param value
      *     allowed object is
@@ -186,7 +186,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the ciclodottorato property.
+     * Recupera il valore della proprietà ciclodottorato.
      * 
      * @return
      *     possible object is
@@ -198,7 +198,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the ciclodottorato property.
+     * Imposta il valore della proprietà ciclodottorato.
      * 
      * @param value
      *     allowed object is
@@ -210,7 +210,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the codesse3CDS property.
+     * Recupera il valore della proprietà codesse3CDS.
      * 
      * @return
      *     possible object is
@@ -222,7 +222,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the codesse3CDS property.
+     * Imposta il valore della proprietà codesse3CDS.
      * 
      * @param value
      *     allowed object is
@@ -234,7 +234,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the codesse3MOTIVOSTATOCARRIERA property.
+     * Recupera il valore della proprietà codesse3MOTIVOSTATOCARRIERA.
      * 
      * @return
      *     possible object is
@@ -246,7 +246,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the codesse3MOTIVOSTATOCARRIERA property.
+     * Imposta il valore della proprietà codesse3MOTIVOSTATOCARRIERA.
      * 
      * @param value
      *     allowed object is
@@ -258,7 +258,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the codesse3STATOCARRIERA property.
+     * Recupera il valore della proprietà codesse3STATOCARRIERA.
      * 
      * @return
      *     possible object is
@@ -270,7 +270,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the codesse3STATOCARRIERA property.
+     * Imposta il valore della proprietà codesse3STATOCARRIERA.
      * 
      * @param value
      *     allowed object is
@@ -282,7 +282,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the crediti property.
+     * Recupera il valore della proprietà crediti.
      * 
      * @return
      *     possible object is
@@ -294,7 +294,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the crediti property.
+     * Imposta il valore della proprietà crediti.
      * 
      * @param value
      *     allowed object is
@@ -306,7 +306,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the creditiinpiano property.
+     * Recupera il valore della proprietà creditiinpiano.
      * 
      * @return
      *     possible object is
@@ -318,7 +318,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the creditiinpiano property.
+     * Imposta il valore della proprietà creditiinpiano.
      * 
      * @param value
      *     allowed object is
@@ -330,7 +330,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the datachiusuracarriera property.
+     * Recupera il valore della proprietà datachiusuracarriera.
      * 
      * @return
      *     possible object is
@@ -342,7 +342,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the datachiusuracarriera property.
+     * Imposta il valore della proprietà datachiusuracarriera.
      * 
      * @param value
      *     allowed object is
@@ -354,7 +354,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the descrizionecds property.
+     * Recupera il valore della proprietà descrizionecds.
      * 
      * @return
      *     possible object is
@@ -366,7 +366,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the descrizionecds property.
+     * Imposta il valore della proprietà descrizionecds.
      * 
      * @param value
      *     allowed object is
@@ -378,7 +378,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the descrizionemotivostatocarriera property.
+     * Recupera il valore della proprietà descrizionemotivostatocarriera.
      * 
      * @return
      *     possible object is
@@ -390,7 +390,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the descrizionemotivostatocarriera property.
+     * Imposta il valore della proprietà descrizionemotivostatocarriera.
      * 
      * @param value
      *     allowed object is
@@ -402,7 +402,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the descrizionestatocarriera property.
+     * Recupera il valore della proprietà descrizionestatocarriera.
      * 
      * @return
      *     possible object is
@@ -414,7 +414,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the descrizionestatocarriera property.
+     * Imposta il valore della proprietà descrizionestatocarriera.
      * 
      * @param value
      *     allowed object is
@@ -426,7 +426,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the esse3MATRICOLA property.
+     * Recupera il valore della proprietà esse3MATRICOLA.
      * 
      * @return
      *     possible object is
@@ -438,7 +438,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the esse3MATRICOLA property.
+     * Imposta il valore della proprietà esse3MATRICOLA.
      * 
      * @param value
      *     allowed object is
@@ -450,7 +450,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the idada property.
+     * Recupera il valore della proprietà idada.
      * 
      * @return
      *     possible object is
@@ -462,7 +462,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the idada property.
+     * Imposta il valore della proprietà idada.
      * 
      * @param value
      *     allowed object is
@@ -474,7 +474,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the idgiadapersona property.
+     * Recupera il valore della proprietà idgiadapersona.
      * 
      * @return
      *     possible object is
@@ -486,7 +486,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the idgiadapersona property.
+     * Imposta il valore della proprietà idgiadapersona.
      * 
      * @param value
      *     allowed object is
@@ -498,7 +498,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the mediaaritmetica property.
+     * Recupera il valore della proprietà mediaaritmetica.
      * 
      * @return
      *     possible object is
@@ -510,7 +510,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the mediaaritmetica property.
+     * Imposta il valore della proprietà mediaaritmetica.
      * 
      * @param value
      *     allowed object is
@@ -522,7 +522,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the mediaponderata property.
+     * Recupera il valore della proprietà mediaponderata.
      * 
      * @return
      *     possible object is
@@ -534,7 +534,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the mediaponderata property.
+     * Imposta il valore della proprietà mediaponderata.
      * 
      * @param value
      *     allowed object is
@@ -546,7 +546,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the numeroesamipiano property.
+     * Recupera il valore della proprietà numeroesamipiano.
      * 
      * @return
      *     possible object is
@@ -558,7 +558,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the numeroesamipiano property.
+     * Imposta il valore della proprietà numeroesamipiano.
      * 
      * @param value
      *     allowed object is
@@ -570,7 +570,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Gets the value of the numeroesamisuperati property.
+     * Recupera il valore della proprietà numeroesamisuperati.
      * 
      * @return
      *     possible object is
@@ -582,7 +582,7 @@ public class ULTIMACARRIERASTUDENTE {
     }
 
     /**
-     * Sets the value of the numeroesamisuperati property.
+     * Imposta il valore della proprietà numeroesamisuperati.
      * 
      * @param value
      *     allowed object is

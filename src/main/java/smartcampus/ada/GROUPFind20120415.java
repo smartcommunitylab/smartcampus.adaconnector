@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -51,7 +51,7 @@ public class GROUPFind20120415 {
     protected JAXBElement<Long> gid;
 
     /**
-     * Gets the value of the idGru property.
+     * Recupera il valore della proprietà idGru.
      * 
      * @return
      *     possible object is
@@ -63,7 +63,7 @@ public class GROUPFind20120415 {
     }
 
     /**
-     * Sets the value of the idGru property.
+     * Imposta il valore della proprietà idGru.
      * 
      * @param value
      *     allowed object is
@@ -75,7 +75,7 @@ public class GROUPFind20120415 {
     }
 
     /**
-     * Gets the value of the idTlm property.
+     * Recupera il valore della proprietà idTlm.
      * 
      * @return
      *     possible object is
@@ -87,7 +87,7 @@ public class GROUPFind20120415 {
     }
 
     /**
-     * Sets the value of the idTlm property.
+     * Imposta il valore della proprietà idTlm.
      * 
      * @param value
      *     allowed object is
@@ -99,7 +99,7 @@ public class GROUPFind20120415 {
     }
 
     /**
-     * Gets the value of the descrizione property.
+     * Recupera il valore della proprietà descrizione.
      * 
      * @return
      *     possible object is
@@ -111,7 +111,7 @@ public class GROUPFind20120415 {
     }
 
     /**
-     * Sets the value of the descrizione property.
+     * Imposta il valore della proprietà descrizione.
      * 
      * @param value
      *     allowed object is
@@ -123,7 +123,7 @@ public class GROUPFind20120415 {
     }
 
     /**
-     * Gets the value of the gid property.
+     * Recupera il valore della proprietà gid.
      * 
      * @return
      *     possible object is
@@ -135,7 +135,7 @@ public class GROUPFind20120415 {
     }
 
     /**
-     * Sets the value of the gid property.
+     * Imposta il valore della proprietà gid.
      * 
      * @param value
      *     allowed object is

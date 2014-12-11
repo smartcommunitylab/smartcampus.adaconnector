@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for PER_Posizioni_20091229 complex type.
+ * <p>Classe Java per PER_Posizioni_20091229 complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PER_Posizioni_20091229">
@@ -130,7 +130,7 @@ public class PERPosizioni20091229 {
     protected JAXBElement<String> stoidoga;
 
     /**
-     * Gets the value of the descrizionefro property.
+     * Recupera il valore della proprietà descrizionefro.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the descrizionefro property.
+     * Imposta il valore della proprietà descrizionefro.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the descrizionepor property.
+     * Recupera il valore della proprietà descrizionepor.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the descrizionepor property.
+     * Imposta il valore della proprietà descrizionepor.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the descrizioneppe property.
+     * Recupera il valore della proprietà descrizioneppe.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the descrizioneppe property.
+     * Imposta il valore della proprietà descrizioneppe.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the descrizionepro property.
+     * Recupera il valore della proprietà descrizionepro.
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the descrizionepro property.
+     * Imposta il valore della proprietà descrizionepro.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the descrizioneruo property.
+     * Recupera il valore della proprietà descrizioneruo.
      * 
      * @return
      *     possible object is
@@ -238,7 +238,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the descrizioneruo property.
+     * Imposta il valore della proprietà descrizioneruo.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +250,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the descrizionerup property.
+     * Recupera il valore della proprietà descrizionerup.
      * 
      * @return
      *     possible object is
@@ -262,7 +262,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the descrizionerup property.
+     * Imposta il valore della proprietà descrizionerup.
      * 
      * @param value
      *     allowed object is
@@ -274,7 +274,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the descrizionesed property.
+     * Recupera il valore della proprietà descrizionesed.
      * 
      * @return
      *     possible object is
@@ -286,7 +286,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the descrizionesed property.
+     * Imposta il valore della proprietà descrizionesed.
      * 
      * @param value
      *     allowed object is
@@ -298,7 +298,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the descrizionesto property.
+     * Recupera il valore della proprietà descrizionesto.
      * 
      * @return
      *     possible object is
@@ -310,7 +310,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the descrizionesto property.
+     * Imposta il valore della proprietà descrizionesto.
      * 
      * @param value
      *     allowed object is
@@ -322,7 +322,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the finepor property.
+     * Recupera il valore della proprietà finepor.
      * 
      * @return
      *     possible object is
@@ -334,7 +334,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the finepor property.
+     * Imposta il valore della proprietà finepor.
      * 
      * @param value
      *     allowed object is
@@ -346,7 +346,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the fineppe property.
+     * Recupera il valore della proprietà fineppe.
      * 
      * @return
      *     possible object is
@@ -358,7 +358,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the fineppe property.
+     * Imposta il valore della proprietà fineppe.
      * 
      * @param value
      *     allowed object is
@@ -370,7 +370,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the finesog property.
+     * Recupera il valore della proprietà finesog.
      * 
      * @return
      *     possible object is
@@ -382,7 +382,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the finesog property.
+     * Imposta il valore della proprietà finesog.
      * 
      * @param value
      *     allowed object is
@@ -394,7 +394,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the froidatr property.
+     * Recupera il valore della proprietà froidatr.
      * 
      * @return
      *     possible object is
@@ -406,7 +406,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the froidatr property.
+     * Imposta il valore della proprietà froidatr.
      * 
      * @param value
      *     allowed object is
@@ -418,7 +418,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the iniziopor property.
+     * Recupera il valore della proprietà iniziopor.
      * 
      * @return
      *     possible object is
@@ -430,7 +430,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the iniziopor property.
+     * Imposta il valore della proprietà iniziopor.
      * 
      * @param value
      *     allowed object is
@@ -442,7 +442,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the inizioppe property.
+     * Recupera il valore della proprietà inizioppe.
      * 
      * @return
      *     possible object is
@@ -454,7 +454,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the inizioppe property.
+     * Imposta il valore della proprietà inizioppe.
      * 
      * @param value
      *     allowed object is
@@ -466,7 +466,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the iniziosog property.
+     * Recupera il valore della proprietà iniziosog.
      * 
      * @return
      *     possible object is
@@ -478,7 +478,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the iniziosog property.
+     * Imposta il valore della proprietà iniziosog.
      * 
      * @param value
      *     allowed object is
@@ -490,7 +490,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the lingua property.
+     * Recupera il valore della proprietà lingua.
      * 
      * @return
      *     possible object is
@@ -502,7 +502,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the lingua property.
+     * Imposta il valore della proprietà lingua.
      * 
      * @param value
      *     allowed object is
@@ -514,7 +514,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the peridoga property.
+     * Recupera il valore della proprietà peridoga.
      * 
      * @return
      *     possible object is
@@ -526,7 +526,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the peridoga property.
+     * Imposta il valore della proprietà peridoga.
      * 
      * @param value
      *     allowed object is
@@ -538,7 +538,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the poridoga property.
+     * Recupera il valore della proprietà poridoga.
      * 
      * @return
      *     possible object is
@@ -550,7 +550,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the poridoga property.
+     * Imposta il valore della proprietà poridoga.
      * 
      * @param value
      *     allowed object is
@@ -562,7 +562,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the ppeidoga property.
+     * Recupera il valore della proprietà ppeidoga.
      * 
      * @return
      *     possible object is
@@ -574,7 +574,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the ppeidoga property.
+     * Imposta il valore della proprietà ppeidoga.
      * 
      * @param value
      *     allowed object is
@@ -586,7 +586,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the proidoga property.
+     * Recupera il valore della proprietà proidoga.
      * 
      * @return
      *     possible object is
@@ -598,7 +598,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the proidoga property.
+     * Imposta il valore della proprietà proidoga.
      * 
      * @param value
      *     allowed object is
@@ -610,7 +610,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the ruoidoga property.
+     * Recupera il valore della proprietà ruoidoga.
      * 
      * @return
      *     possible object is
@@ -622,7 +622,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the ruoidoga property.
+     * Imposta il valore della proprietà ruoidoga.
      * 
      * @param value
      *     allowed object is
@@ -634,7 +634,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the rupidoga property.
+     * Recupera il valore della proprietà rupidoga.
      * 
      * @return
      *     possible object is
@@ -646,7 +646,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the rupidoga property.
+     * Imposta il valore della proprietà rupidoga.
      * 
      * @param value
      *     allowed object is
@@ -658,7 +658,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the sedidoga property.
+     * Recupera il valore della proprietà sedidoga.
      * 
      * @return
      *     possible object is
@@ -670,7 +670,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the sedidoga property.
+     * Imposta il valore della proprietà sedidoga.
      * 
      * @param value
      *     allowed object is
@@ -682,7 +682,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Gets the value of the stoidoga property.
+     * Recupera il valore della proprietà stoidoga.
      * 
      * @return
      *     possible object is
@@ -694,7 +694,7 @@ public class PERPosizioni20091229 {
     }
 
     /**
-     * Sets the value of the stoidoga property.
+     * Imposta il valore della proprietà stoidoga.
      * 
      * @param value
      *     allowed object is

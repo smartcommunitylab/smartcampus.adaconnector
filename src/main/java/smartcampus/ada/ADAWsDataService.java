@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "ADAWsDataService", targetNamespace = "http://tempuri.org/", wsdlLocation = "http://www5.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl")
+@WebServiceClient(name = "ADAWsDataService", targetNamespace = "http://tempuri.org/", wsdlLocation = "http://webapps.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl")
 public class ADAWsDataService
     extends Service
 {
@@ -30,7 +30,7 @@ public class ADAWsDataService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://www5.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl");
+            url = new URL("http://webapps.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

@@ -10,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for anonymous complex type.
+ * <p>Classe Java per anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -47,7 +47,7 @@ public class ACCOUNTDETAILFINDIdAccListDaIdAda20120415 {
     protected JAXBElement<String> accountNonAttivi;
 
     /**
-     * Gets the value of the idAda property.
+     * Recupera il valore della proprietà idAda.
      * 
      * @return
      *     possible object is
@@ -59,7 +59,7 @@ public class ACCOUNTDETAILFINDIdAccListDaIdAda20120415 {
     }
 
     /**
-     * Sets the value of the idAda property.
+     * Imposta il valore della proprietà idAda.
      * 
      * @param value
      *     allowed object is
@@ -71,7 +71,7 @@ public class ACCOUNTDETAILFINDIdAccListDaIdAda20120415 {
     }
 
     /**
-     * Gets the value of the accountTecnici property.
+     * Recupera il valore della proprietà accountTecnici.
      * 
      * @return
      *     possible object is
@@ -83,7 +83,7 @@ public class ACCOUNTDETAILFINDIdAccListDaIdAda20120415 {
     }
 
     /**
-     * Sets the value of the accountTecnici property.
+     * Imposta il valore della proprietà accountTecnici.
      * 
      * @param value
      *     allowed object is
@@ -95,7 +95,7 @@ public class ACCOUNTDETAILFINDIdAccListDaIdAda20120415 {
     }
 
     /**
-     * Gets the value of the accountNonAttivi property.
+     * Recupera il valore della proprietà accountNonAttivi.
      * 
      * @return
      *     possible object is
@@ -107,7 +107,7 @@ public class ACCOUNTDETAILFINDIdAccListDaIdAda20120415 {
     }
 
     /**
-     * Sets the value of the accountNonAttivi property.
+     * Imposta il valore della proprietà accountNonAttivi.
      * 
      * @param value
      *     allowed object is

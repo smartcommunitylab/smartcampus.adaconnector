@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for PER_Persona complex type.
+ * <p>Classe Java per PER_Persona complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="PER_Persona">
@@ -82,7 +82,7 @@ public class PERPersona {
     protected JAXBElement<String> sessoper;
 
     /**
-     * Gets the value of the codfisper property.
+     * Recupera il valore della proprietà codfisper.
      * 
      * @return
      *     possible object is
@@ -94,7 +94,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the codfisper property.
+     * Imposta il valore della proprietà codfisper.
      * 
      * @param value
      *     allowed object is
@@ -106,7 +106,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the cognome property.
+     * Recupera il valore della proprietà cognome.
      * 
      * @return
      *     possible object is
@@ -118,7 +118,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the cognome property.
+     * Imposta il valore della proprietà cognome.
      * 
      * @param value
      *     allowed object is
@@ -130,7 +130,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the datanascitaper property.
+     * Recupera il valore della proprietà datanascitaper.
      * 
      * @return
      *     possible object is
@@ -142,7 +142,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the datanascitaper property.
+     * Imposta il valore della proprietà datanascitaper.
      * 
      * @param value
      *     allowed object is
@@ -154,7 +154,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the idoga property.
+     * Recupera il valore della proprietà idoga.
      * 
      * @return
      *     possible object is
@@ -166,7 +166,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the idoga property.
+     * Imposta il valore della proprietà idoga.
      * 
      * @param value
      *     allowed object is
@@ -178,7 +178,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the luogonascitadescatr property.
+     * Recupera il valore della proprietà luogonascitadescatr.
      * 
      * @return
      *     possible object is
@@ -190,7 +190,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the luogonascitadescatr property.
+     * Imposta il valore della proprietà luogonascitadescatr.
      * 
      * @param value
      *     allowed object is
@@ -202,7 +202,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the luogonascitaidatr property.
+     * Recupera il valore della proprietà luogonascitaidatr.
      * 
      * @return
      *     possible object is
@@ -214,7 +214,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the luogonascitaidatr property.
+     * Imposta il valore della proprietà luogonascitaidatr.
      * 
      * @param value
      *     allowed object is
@@ -226,7 +226,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the matchprob property.
+     * Recupera il valore della proprietà matchprob.
      * 
      * @return
      *     possible object is
@@ -238,7 +238,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the matchprob property.
+     * Imposta il valore della proprietà matchprob.
      * 
      * @param value
      *     allowed object is
@@ -250,7 +250,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the nazionenascitadescatr property.
+     * Recupera il valore della proprietà nazionenascitadescatr.
      * 
      * @return
      *     possible object is
@@ -262,7 +262,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the nazionenascitadescatr property.
+     * Imposta il valore della proprietà nazionenascitadescatr.
      * 
      * @param value
      *     allowed object is
@@ -274,7 +274,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the nazionenascitaidatr property.
+     * Recupera il valore della proprietà nazionenascitaidatr.
      * 
      * @return
      *     possible object is
@@ -286,7 +286,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the nazionenascitaidatr property.
+     * Imposta il valore della proprietà nazionenascitaidatr.
      * 
      * @param value
      *     allowed object is
@@ -298,7 +298,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the nome property.
+     * Recupera il valore della proprietà nome.
      * 
      * @return
      *     possible object is
@@ -310,7 +310,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the nome property.
+     * Imposta il valore della proprietà nome.
      * 
      * @param value
      *     allowed object is
@@ -322,7 +322,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the nomepadreper property.
+     * Recupera il valore della proprietà nomepadreper.
      * 
      * @return
      *     possible object is
@@ -334,7 +334,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the nomepadreper property.
+     * Imposta il valore della proprietà nomepadreper.
      * 
      * @param value
      *     allowed object is
@@ -346,7 +346,7 @@ public class PERPersona {
     }
 
     /**
-     * Gets the value of the sessoper property.
+     * Recupera il valore della proprietà sessoper.
      * 
      * @return
      *     possible object is
@@ -358,7 +358,7 @@ public class PERPersona {
     }
 
     /**
-     * Sets the value of the sessoper property.
+     * Imposta il valore della proprietà sessoper.
      * 
      * @param value
      *     allowed object is

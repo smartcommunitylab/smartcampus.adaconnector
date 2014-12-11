@@ -9,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for ACCOUNT_membership complex type.
+ * <p>Classe Java per ACCOUNT_membership complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ACCOUNT_membership">
@@ -45,7 +45,7 @@ public class ACCOUNTMembership {
     protected JAXBElement<String> idgru;
 
     /**
-     * Gets the value of the descrizione property.
+     * Recupera il valore della proprietà descrizione.
      * 
      * @return
      *     possible object is
@@ -57,7 +57,7 @@ public class ACCOUNTMembership {
     }
 
     /**
-     * Sets the value of the descrizione property.
+     * Imposta il valore della proprietà descrizione.
      * 
      * @param value
      *     allowed object is
@@ -69,7 +69,7 @@ public class ACCOUNTMembership {
     }
 
     /**
-     * Gets the value of the gid property.
+     * Recupera il valore della proprietà gid.
      * 
      * @return
      *     possible object is
@@ -81,7 +81,7 @@ public class ACCOUNTMembership {
     }
 
     /**
-     * Sets the value of the gid property.
+     * Imposta il valore della proprietà gid.
      * 
      * @param value
      *     allowed object is
@@ -93,7 +93,7 @@ public class ACCOUNTMembership {
     }
 
     /**
-     * Gets the value of the idgru property.
+     * Recupera il valore della proprietà idgru.
      * 
      * @return
      *     possible object is
@@ -105,7 +105,7 @@ public class ACCOUNTMembership {
     }
 
     /**
-     * Sets the value of the idgru property.
+     * Imposta il valore della proprietà idgru.
      * 
      * @param value
      *     allowed object is

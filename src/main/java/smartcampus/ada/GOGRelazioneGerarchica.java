@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for GOG_relazione_gerarchica complex type.
+ * <p>Classe Java per GOG_relazione_gerarchica complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="GOG_relazione_gerarchica">
@@ -62,7 +62,7 @@ public class GOGRelazioneGerarchica {
     protected JAXBElement<Long> ordine;
 
     /**
-     * Gets the value of the finegog property.
+     * Recupera il valore della proprietà finegog.
      * 
      * @return
      *     possible object is
@@ -74,7 +74,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Sets the value of the finegog property.
+     * Imposta il valore della proprietà finegog.
      * 
      * @param value
      *     allowed object is
@@ -86,7 +86,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Gets the value of the idadafiglio property.
+     * Recupera il valore della proprietà idadafiglio.
      * 
      * @return
      *     possible object is
@@ -98,7 +98,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Sets the value of the idadafiglio property.
+     * Imposta il valore della proprietà idadafiglio.
      * 
      * @param value
      *     allowed object is
@@ -110,7 +110,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Gets the value of the idadapadre property.
+     * Recupera il valore della proprietà idadapadre.
      * 
      * @return
      *     possible object is
@@ -122,7 +122,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Sets the value of the idadapadre property.
+     * Imposta il valore della proprietà idadapadre.
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Gets the value of the idtso property.
+     * Recupera il valore della proprietà idtso.
      * 
      * @return
      *     possible object is
@@ -146,7 +146,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Sets the value of the idtso property.
+     * Imposta il valore della proprietà idtso.
      * 
      * @param value
      *     allowed object is
@@ -158,7 +158,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Gets the value of the iniziogog property.
+     * Recupera il valore della proprietà iniziogog.
      * 
      * @return
      *     possible object is
@@ -170,7 +170,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Sets the value of the iniziogog property.
+     * Imposta il valore della proprietà iniziogog.
      * 
      * @param value
      *     allowed object is
@@ -182,7 +182,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Gets the value of the livello property.
+     * Recupera il valore della proprietà livello.
      * 
      * @return
      *     possible object is
@@ -194,7 +194,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Sets the value of the livello property.
+     * Imposta il valore della proprietà livello.
      * 
      * @param value
      *     allowed object is
@@ -206,7 +206,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Gets the value of the ordine property.
+     * Recupera il valore della proprietà ordine.
      * 
      * @return
      *     possible object is
@@ -218,7 +218,7 @@ public class GOGRelazioneGerarchica {
     }
 
     /**
-     * Sets the value of the ordine property.
+     * Imposta il valore della proprietà ordine.
      * 
      * @param value
      *     allowed object is

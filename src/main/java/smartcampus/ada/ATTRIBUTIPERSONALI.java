@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for ATTRIBUTI_PERSONALI complex type.
+ * <p>Classe Java per ATTRIBUTI_PERSONALI complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="ATTRIBUTI_PERSONALI">
@@ -54,7 +54,7 @@ public class ATTRIBUTIPERSONALI {
     protected JAXBElement<XMLGregorianCalendar> inizio;
 
     /**
-     * Gets the value of the aliascognome property.
+     * Recupera il valore della proprietà aliascognome.
      * 
      * @return
      *     possible object is
@@ -66,7 +66,7 @@ public class ATTRIBUTIPERSONALI {
     }
 
     /**
-     * Sets the value of the aliascognome property.
+     * Imposta il valore della proprietà aliascognome.
      * 
      * @param value
      *     allowed object is
@@ -78,7 +78,7 @@ public class ATTRIBUTIPERSONALI {
     }
 
     /**
-     * Gets the value of the aliasnome property.
+     * Recupera il valore della proprietà aliasnome.
      * 
      * @return
      *     possible object is
@@ -90,7 +90,7 @@ public class ATTRIBUTIPERSONALI {
     }
 
     /**
-     * Sets the value of the aliasnome property.
+     * Imposta il valore della proprietà aliasnome.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +102,7 @@ public class ATTRIBUTIPERSONALI {
     }
 
     /**
-     * Gets the value of the fine property.
+     * Recupera il valore della proprietà fine.
      * 
      * @return
      *     possible object is
@@ -114,7 +114,7 @@ public class ATTRIBUTIPERSONALI {
     }
 
     /**
-     * Sets the value of the fine property.
+     * Imposta il valore della proprietà fine.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +126,7 @@ public class ATTRIBUTIPERSONALI {
     }
 
     /**
-     * Gets the value of the idada property.
+     * Recupera il valore della proprietà idada.
      * 
      * @return
      *     possible object is
@@ -138,7 +138,7 @@ public class ATTRIBUTIPERSONALI {
     }
 
     /**
-     * Sets the value of the idada property.
+     * Imposta il valore della proprietà idada.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +150,7 @@ public class ATTRIBUTIPERSONALI {
     }
 
     /**
-     * Gets the value of the inizio property.
+     * Recupera il valore della proprietà inizio.
      * 
      * @return
      *     possible object is
@@ -162,7 +162,7 @@ public class ATTRIBUTIPERSONALI {
     }
 
     /**
-     * Sets the value of the inizio property.
+     * Imposta il valore della proprietà inizio.
      * 
      * @param value
      *     allowed object is

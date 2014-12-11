@@ -10,9 +10,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java class for GROUP_detail complex type.
+ * <p>Classe Java per GROUP_detail complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Il seguente frammento di schema specifica il contenuto previsto contenuto in questa classe.
  * 
  * <pre>
  * &lt;complexType name="GROUP_detail">
@@ -62,7 +62,7 @@ public class GROUPDetail {
     protected JAXBElement<XMLGregorianCalendar> inizio;
 
     /**
-     * Gets the value of the descrizione property.
+     * Recupera il valore della proprietà descrizione.
      * 
      * @return
      *     possible object is
@@ -74,7 +74,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Sets the value of the descrizione property.
+     * Imposta il valore della proprietà descrizione.
      * 
      * @param value
      *     allowed object is
@@ -86,7 +86,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Gets the value of the descrizionetlm property.
+     * Recupera il valore della proprietà descrizionetlm.
      * 
      * @return
      *     possible object is
@@ -98,7 +98,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Sets the value of the descrizionetlm property.
+     * Imposta il valore della proprietà descrizionetlm.
      * 
      * @param value
      *     allowed object is
@@ -110,7 +110,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Gets the value of the fine property.
+     * Recupera il valore della proprietà fine.
      * 
      * @return
      *     possible object is
@@ -122,7 +122,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Sets the value of the fine property.
+     * Imposta il valore della proprietà fine.
      * 
      * @param value
      *     allowed object is
@@ -134,7 +134,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Gets the value of the gid property.
+     * Recupera il valore della proprietà gid.
      * 
      * @return
      *     possible object is
@@ -146,7 +146,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Sets the value of the gid property.
+     * Imposta il valore della proprietà gid.
      * 
      * @param value
      *     allowed object is
@@ -158,7 +158,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Gets the value of the idgru property.
+     * Recupera il valore della proprietà idgru.
      * 
      * @return
      *     possible object is
@@ -170,7 +170,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Sets the value of the idgru property.
+     * Imposta il valore della proprietà idgru.
      * 
      * @param value
      *     allowed object is
@@ -182,7 +182,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Gets the value of the idtlm property.
+     * Recupera il valore della proprietà idtlm.
      * 
      * @return
      *     possible object is
@@ -194,7 +194,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Sets the value of the idtlm property.
+     * Imposta il valore della proprietà idtlm.
      * 
      * @param value
      *     allowed object is
@@ -206,7 +206,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Gets the value of the inizio property.
+     * Recupera il valore della proprietà inizio.
      * 
      * @return
      *     possible object is
@@ -218,7 +218,7 @@ public class GROUPDetail {
     }
 
     /**
-     * Sets the value of the inizio property.
+     * Imposta il valore della proprietà inizio.
      * 
      * @param value
      *     allowed object is
