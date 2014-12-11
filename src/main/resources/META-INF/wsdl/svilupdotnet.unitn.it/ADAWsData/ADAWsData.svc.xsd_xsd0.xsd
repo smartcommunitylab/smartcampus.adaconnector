@@ -1,1422 +1,1422 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema elementFormDefault="qualified" targetNamespace="http://Data.ADAWs.unitn.it" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://Data.ADAWs.unitn.it">
-	<xs:element name="PER_find_cognome_nome">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_cognome_nomeResponse">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_cognome_nomeResult" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfPER_Persona">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="PER_Persona" nillable="true" type="tns:PER_Persona"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfPER_Persona" nillable="true" type="tns:ArrayOfPER_Persona"/>
-	<xs:complexType name="PER_Persona">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="COD_FIS_PER" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="COGNOME" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DATA_NASCITA_PER" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="LUOGO_NASCITA_DESC_ATR" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="LUOGO_NASCITA_ID_ATR" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="MATCH_PROB" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="NAZIONE_NASCITA_DESC_ATR" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="NAZIONE_NASCITA_ID_ATR" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="NOME" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="NOME_PADRE_PER" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="SESSO_PER" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="PER_Persona" nillable="true" type="tns:PER_Persona"/>
-	<xs:element name="PER_find_id_ada">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_id_adaResponse">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_id_adaResult" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_posizioni_id_ada">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_posizioni_id_adaResponse">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_posizioni_id_adaResult" nillable="true" type="tns:ArrayOfPER_Posizioni"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfPER_Posizioni">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="PER_Posizioni" nillable="true" type="tns:PER_Posizioni"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfPER_Posizioni" nillable="true" type="tns:ArrayOfPER_Posizioni"/>
-	<xs:complexType name="PER_Posizioni">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="DESCRIZIONE_POR" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_PPE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_PRO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_RUO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_RUP" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_SED" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_STO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FINE_POR" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="FINE_PPE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="FINE_SOG" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="INIZIO_POR" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="INIZIO_PPE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="INIZIO_SOG" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="PER_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="POR_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="PPE_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="PRO_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RUO_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RUP_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="SED_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="STO_ID_OGA" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="PER_Posizioni" nillable="true" type="tns:PER_Posizioni"/>
-	<xs:element name="PER_find_cognome_nome_20091229">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_cognome_nome_20091229Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_cognome_nome_20091229Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_id_ada_20091229">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_id_ada_20091229Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_id_ada_20091229Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_posizioni_id_ada_20091229">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_posizioni_id_ada_20091229Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_posizioni_id_ada_20091229Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfPER_Posizioni_20091229">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="PER_Posizioni_20091229" nillable="true" type="tns:PER_Posizioni_20091229"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfPER_Posizioni_20091229" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
-	<xs:complexType name="PER_Posizioni_20091229">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="DESCRIZIONE_FRO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_POR" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_PPE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_PRO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_RUO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_RUP" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_SED" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_STO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FINE_POR" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="FINE_PPE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="FINE_SOG" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="FRO_ID_ATR" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO_POR" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="INIZIO_PPE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="INIZIO_SOG" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="PER_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="POR_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="PPE_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="PRO_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RUO_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RUP_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="SED_ID_OGA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="STO_ID_OGA" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="PER_Posizioni_20091229" nillable="true" type="tns:PER_Posizioni_20091229"/>
-	<xs:element name="VOIP_find_entity_20091229">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="VOIP_find_entity_20091229Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="VOIP_find_entity_20091229Result" nillable="true" type="tns:ArrayOfVOIP_entity"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfVOIP_entity">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="VOIP_entity" nillable="true" type="tns:VOIP_entity"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfVOIP_entity" nillable="true" type="tns:ArrayOfVOIP_entity"/>
-	<xs:complexType name="VOIP_entity">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="DESCRIZIONE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_TOA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="VOIP_entity" nillable="true" type="tns:VOIP_entity"/>
-	<xs:element name="PER_find_all_posizioni_20091229">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_all_posizioni_20091229Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_all_posizioni_20091229Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_find_id_ada_20091229">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_account" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_find_id_ada_20091229Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ACCOUNT_find_id_ada_20091229Result" nillable="true" type="tns:ArrayOfACCOUNT_entity_base"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfACCOUNT_entity_base">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ACCOUNT_entity_base" nillable="true" type="tns:ACCOUNT_entity_base"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfACCOUNT_entity_base" nillable="true" type="tns:ArrayOfACCOUNT_entity_base"/>
-	<xs:complexType name="ACCOUNT_entity_base">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="CELL_UFFICIO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="E_MAIL_UFF" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FAX_UFFICIO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ACCOUNT" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INTERNO_CELL" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="MAIL" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="TEL_UFFICIO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="USERNAME" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ACCOUNT_entity_base" nillable="true" type="tns:ACCOUNT_entity_base"/>
-	<xs:element name="GOG_gerarchia_sto_20091229">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GOG_gerarchia_sto_20091229Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="GOG_gerarchia_sto_20091229Result" nillable="true" type="tns:ArrayOfGOG_relazione_gerarchica"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfGOG_relazione_gerarchica">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="GOG_relazione_gerarchica" nillable="true" type="tns:GOG_relazione_gerarchica"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfGOG_relazione_gerarchica" nillable="true" type="tns:ArrayOfGOG_relazione_gerarchica"/>
-	<xs:complexType name="GOG_relazione_gerarchica">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="FINE_GOG" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="ID_ADA_FIGLIO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA_PADRE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_TSO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO_GOG" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="LIVELLO" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="ORDINE" nillable="true" type="xs:long"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="GOG_relazione_gerarchica" nillable="true" type="tns:GOG_relazione_gerarchica"/>
-	<xs:element name="PER_find_cognome_nome_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_cognome_nome_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_cognome_nome_20110214Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_id_ada_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_id_ada_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_id_ada_20110214Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_posizioni_id_ada_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_posizioni_id_ada_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_posizioni_id_ada_20110214Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="VOIP_find_entity_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="VOIP_find_entity_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="VOIP_find_entity_20110214Result" nillable="true" type="tns:ArrayOfVOIP_entity"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_all_posizioni_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_all_posizioni_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_all_posizioni_20110214Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_find_id_ada_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_account" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_find_id_ada_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ACCOUNT_find_id_ada_20110214Result" nillable="true" type="tns:ArrayOfACCOUNT_entity_base"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GOG_gerarchia_sto_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GOG_gerarchia_sto_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="GOG_gerarchia_sto_20110214Result" nillable="true" type="tns:ArrayOfGOG_relazione_gerarchica"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="CODE_find_id_fonte_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_fad" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="CODE_find_id_fonte_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="CODE_find_id_fonte_20110214Result" nillable="true" type="tns:ArrayOfCODE_relation"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfCODE_relation">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="CODE_relation" nillable="true" type="tns:CODE_relation"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfCODE_relation" nillable="true" type="tns:ArrayOfCODE_relation"/>
-	<xs:complexType name="CODE_relation">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_FAD" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_FONTE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="CODE_relation" nillable="true" type="tns:CODE_relation"/>
-	<xs:element name="CODE_find_id_ada_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_fad" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_local" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="CODE_find_id_ada_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="CODE_find_id_ada_20110214Result" nillable="true" type="tns:ArrayOfCODE_relation"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="DESCRIZIONE_find_oga_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_lingua" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="DESCRIZIONE_find_oga_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="DESCRIZIONE_find_oga_20110214Result" nillable="true" type="tns:ArrayOfADA_description"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfADA_description">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ADA_description" nillable="true" type="tns:ADA_description"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfADA_description" nillable="true" type="tns:ArrayOfADA_description"/>
-	<xs:complexType name="ADA_description">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="DESCRIZIONE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_TOA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ADA_description" nillable="true" type="tns:ADA_description"/>
-	<xs:element name="DESCRIZIONE_find_atr_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_lingua" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="DESCRIZIONE_find_atr_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="DESCRIZIONE_find_atr_20110214Result" nillable="true" type="tns:ArrayOfADA_description"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADA_ID_find_id_acc_da_username_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADA_ID_find_id_acc_da_username_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ADA_ID_find_id_acc_da_username_20110214Result" nillable="true" type="tns:ArrayOfADA_object_ID"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfADA_object_ID">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ADA_object_ID" nillable="true" type="tns:ADA_object_ID"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfADA_object_ID" nillable="true" type="tns:ArrayOfADA_object_ID"/>
-	<xs:complexType name="ADA_object_ID">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ADA_object_ID" nillable="true" type="tns:ADA_object_ID"/>
-	<xs:element name="ADA_ID_find_id_ada_da_username_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADA_ID_find_id_ada_da_username_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ADA_ID_find_id_ada_da_username_20110214Result" nillable="true" type="tns:ArrayOfADA_object_ID"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="account_tecnici" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="account_non_attivi" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214Result" nillable="true" type="tns:ArrayOfACCOUNT_detail"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfACCOUNT_detail">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ACCOUNT_detail" nillable="true" type="tns:ACCOUNT_detail"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfACCOUNT_detail" nillable="true" type="tns:ArrayOfACCOUNT_detail"/>
-	<xs:complexType name="ACCOUNT_detail">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="ID_ACC" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_POA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_TOA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="STATO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="USERNAME" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ACCOUNT_detail" nillable="true" type="tns:ACCOUNT_detail"/>
-	<xs:element name="ACCOUNT_MEMBERSHIP_find_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_acc" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_MEMBERSHIP_find_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ACCOUNT_MEMBERSHIP_find_20110214Result" nillable="true" type="tns:ArrayOfACCOUNT_membership"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfACCOUNT_membership">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ACCOUNT_membership" nillable="true" type="tns:ACCOUNT_membership"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfACCOUNT_membership" nillable="true" type="tns:ArrayOfACCOUNT_membership"/>
-	<xs:complexType name="ACCOUNT_membership">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="DESCRIZIONE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="GID" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="ID_GRU" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ACCOUNT_membership" nillable="true" type="tns:ACCOUNT_membership"/>
-	<xs:element name="GROUP_MEMBER_find_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_gru" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GROUP_MEMBER_find_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="GROUP_MEMBER_find_20110214Result" nillable="true" type="tns:ArrayOfGROUP_member"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfGROUP_member">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="GROUP_member" nillable="true" type="tns:GROUP_member"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfGROUP_member" nillable="true" type="tns:ArrayOfGROUP_member"/>
-	<xs:complexType name="GROUP_member">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="ID_ACC" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="USERNAME" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="GROUP_member" nillable="true" type="tns:GROUP_member"/>
-	<xs:element name="GROUP_find_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_gru" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_tlm" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="gid" nillable="true" type="xs:long"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GROUP_find_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="GROUP_find_20110214Result" nillable="true" type="tns:ArrayOfGROUP_detail"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfGROUP_detail">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="GROUP_detail" nillable="true" type="tns:GROUP_detail"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfGROUP_detail" nillable="true" type="tns:ArrayOfGROUP_detail"/>
-	<xs:complexType name="GROUP_detail">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="DESCRIZIONE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_TLM" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="GID" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="ID_GRU" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_TLM" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="GROUP_detail" nillable="true" type="tns:GROUP_detail"/>
-	<xs:element name="PER_find_codici_base_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="rup_id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="ruo_id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="sto_id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="tso_id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="fro_id_atr" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="da_data" nillable="true" type="xs:dateTime"/>
-				<xs:element minOccurs="0" name="a_data" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_codici_base_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_codici_base_20110214Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="RECAPITO_find_oga_acc_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_acc" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="RECAPITO_find_oga_acc_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="RECAPITO_find_oga_acc_20110214Result" nillable="true" type="tns:ArrayOfRECAPITO"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfRECAPITO">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="RECAPITO" nillable="true" type="tns:RECAPITO"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfRECAPITO" nillable="true" type="tns:ArrayOfRECAPITO"/>
-	<xs:complexType name="RECAPITO">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="CELL_UFFICIO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FAX_UFFICIO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="HOMEPAGE_PERS" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ACCOUNT" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INTERNO_CELL" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="LINK_ISTIT" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="MAIL_FISICA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="MAIL_UNITN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="TEL_UFFICIO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="USERNAME" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="RECAPITO" nillable="true" type="tns:RECAPITO"/>
-	<xs:element name="PER_find_all_posizioni_date_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="da_data" nillable="true" type="xs:dateTime"/>
-				<xs:element minOccurs="0" name="a_data" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_all_posizioni_date_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_all_posizioni_date_20110214Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADI_find_all_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="lingua" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_rif" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADI_find_all_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ADI_find_all_20110214Result" nillable="true" type="tns:ArrayOfATTRIBUTI_DIDATTICA"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfATTRIBUTI_DIDATTICA">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ATTRIBUTI_DIDATTICA" nillable="true" type="tns:ATTRIBUTI_DIDATTICA"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfATTRIBUTI_DIDATTICA" nillable="true" type="tns:ArrayOfATTRIBUTI_DIDATTICA"/>
-	<xs:complexType name="ATTRIBUTI_DIDATTICA">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="DESCRIZIONE_AREA_CUN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_SSD" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_AREA_CUN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_SSD" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="SSD_ID_ATR" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ATTRIBUTI_DIDATTICA" nillable="true" type="tns:ATTRIBUTI_DIDATTICA"/>
-	<xs:element name="SSD_find_all_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_atr" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_ssd" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_acu" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="lingua" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="SSD_find_all_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="SSD_find_all_20110214Result" nillable="true" type="tns:ArrayOfSETTORE_SD_AREA_CUN"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfSETTORE_SD_AREA_CUN">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="SETTORE_SD_AREA_CUN" nillable="true" type="tns:SETTORE_SD_AREA_CUN"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfSETTORE_SD_AREA_CUN" nillable="true" type="tns:ArrayOfSETTORE_SD_AREA_CUN"/>
-	<xs:complexType name="SETTORE_SD_AREA_CUN">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="DESCRIZIONE_AREA_CUN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_SSD" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="ID_AREA_CUN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_SSD" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="SSD_ID_ATR" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="SETTORE_SD_AREA_CUN" nillable="true" type="tns:SETTORE_SD_AREA_CUN"/>
-	<xs:element name="APE_find_all_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_rif" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="APE_find_all_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="APE_find_all_20110214Result" nillable="true" type="tns:ArrayOfATTRIBUTI_PERSONALI"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfATTRIBUTI_PERSONALI">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ATTRIBUTI_PERSONALI" nillable="true" type="tns:ATTRIBUTI_PERSONALI"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfATTRIBUTI_PERSONALI" nillable="true" type="tns:ArrayOfATTRIBUTI_PERSONALI"/>
-	<xs:complexType name="ATTRIBUTI_PERSONALI">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="ALIAS_COGNOME" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ALIAS_NOME" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ATTRIBUTI_PERSONALI" nillable="true" type="tns:ATTRIBUTI_PERSONALI"/>
-	<xs:element name="PER_check_identity_20110214">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="codfis" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="loc_id_atr" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="naz_id_atr" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_nasc" nillable="true" type="xs:dateTime"/>
-				<xs:element minOccurs="0" name="sesso" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="nome_padre" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="indice_rigidita_fuzzy" nillable="true" type="xs:double"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_check_identity_20110214Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_check_identity_20110214Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_cognome_nome_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_cognome_nome_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_cognome_nome_20120415Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_id_ada_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_id_ada_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_id_ada_20120415Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_posizioni_id_ada_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_posizioni_id_ada_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_posizioni_id_ada_20120415Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="VOIP_find_entity_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="VOIP_find_entity_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="VOIP_find_entity_20120415Result" nillable="true" type="tns:ArrayOfVOIP_entity"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_all_posizioni_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_all_posizioni_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_all_posizioni_20120415Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_find_id_ada_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_account" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_find_id_ada_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ACCOUNT_find_id_ada_20120415Result" nillable="true" type="tns:ArrayOfACCOUNT_entity_base"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GOG_gerarchia_sto_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GOG_gerarchia_sto_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="GOG_gerarchia_sto_20120415Result" nillable="true" type="tns:ArrayOfGOG_relazione_gerarchica"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="CODE_find_id_fonte_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_fad" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="CODE_find_id_fonte_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="CODE_find_id_fonte_20120415Result" nillable="true" type="tns:ArrayOfCODE_relation"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="CODE_find_id_ada_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_fad" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_local" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="CODE_find_id_ada_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="CODE_find_id_ada_20120415Result" nillable="true" type="tns:ArrayOfCODE_relation"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="DESCRIZIONE_find_oga_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_lingua" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="DESCRIZIONE_find_oga_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="DESCRIZIONE_find_oga_20120415Result" nillable="true" type="tns:ArrayOfADA_description"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="DESCRIZIONE_find_atr_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_lingua" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="DESCRIZIONE_find_atr_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="DESCRIZIONE_find_atr_20120415Result" nillable="true" type="tns:ArrayOfADA_description"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADA_ID_find_id_acc_da_username_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADA_ID_find_id_acc_da_username_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ADA_ID_find_id_acc_da_username_20120415Result" nillable="true" type="tns:ArrayOfADA_object_ID"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADA_ID_find_id_ada_da_username_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADA_ID_find_id_ada_da_username_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ADA_ID_find_id_ada_da_username_20120415Result" nillable="true" type="tns:ArrayOfADA_object_ID"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="account_tecnici" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="account_non_attivi" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415Result" nillable="true" type="tns:ArrayOfACCOUNT_detail"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_MEMBERSHIP_find_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_acc" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ACCOUNT_MEMBERSHIP_find_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ACCOUNT_MEMBERSHIP_find_20120415Result" nillable="true" type="tns:ArrayOfACCOUNT_membership"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GROUP_MEMBER_find_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_gru" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GROUP_MEMBER_find_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="GROUP_MEMBER_find_20120415Result" nillable="true" type="tns:ArrayOfGROUP_member"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GROUP_find_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_gru" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_tlm" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="gid" nillable="true" type="xs:long"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="GROUP_find_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="GROUP_find_20120415Result" nillable="true" type="tns:ArrayOfGROUP_detail"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_codici_base_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="rup_id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="ruo_id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="sto_id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="tso_id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="fro_id_atr" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="da_data" nillable="true" type="xs:dateTime"/>
-				<xs:element minOccurs="0" name="a_data" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_codici_base_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_codici_base_20120415Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="RECAPITO_find_oga_acc_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_oga" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_acc" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="RECAPITO_find_oga_acc_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="RECAPITO_find_oga_acc_20120415Result" nillable="true" type="tns:ArrayOfRECAPITO"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_all_posizioni_date_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="da_data" nillable="true" type="xs:dateTime"/>
-				<xs:element minOccurs="0" name="a_data" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_find_all_posizioni_date_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_find_all_posizioni_date_20120415Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADI_find_all_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="lingua" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_rif" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ADI_find_all_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="ADI_find_all_20120415Result" nillable="true" type="tns:ArrayOfATTRIBUTI_DIDATTICA"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="SSD_find_all_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_atr" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_ssd" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="id_acu" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="lingua" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="SSD_find_all_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="SSD_find_all_20120415Result" nillable="true" type="tns:ArrayOfSETTORE_SD_AREA_CUN"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="APE_find_all_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_rif" nillable="true" type="xs:dateTime"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="APE_find_all_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="APE_find_all_20120415Result" nillable="true" type="tns:ArrayOfATTRIBUTI_PERSONALI"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_check_identity_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="codfis" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="loc_id_atr" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="naz_id_atr" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="data_nasc" nillable="true" type="xs:dateTime"/>
-				<xs:element minOccurs="0" name="sesso" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="nome_padre" nillable="true" type="xs:string"/>
-				<xs:element minOccurs="0" name="indice_rigidita_fuzzy" nillable="true" type="xs:double"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_check_identity_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_check_identity_20120415Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_attivita_didattiche_sostenute_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="PER_attivita_didattiche_sostenute_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="PER_attivita_didattiche_sostenute_20120415Result" nillable="true" type="tns:ArrayOfATTIVITA_DIDATTICA_SOSTENUTA"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfATTIVITA_DIDATTICA_SOSTENUTA">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ATTIVITA_DIDATTICA_SOSTENUTA" nillable="true" type="tns:ATTIVITA_DIDATTICA_SOSTENUTA"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfATTIVITA_DIDATTICA_SOSTENUTA" nillable="true" type="tns:ArrayOfATTIVITA_DIDATTICA_SOSTENUTA"/>
-	<xs:complexType name="ATTIVITA_DIDATTICA_SOSTENUTA">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="COD_ESSE3_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DATA_SUPERAMENTO" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ESSE3_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ATTIVITA_DIDATTICA_SOSTENUTA" nillable="true" type="tns:ATTIVITA_DIDATTICA_SOSTENUTA"/>
-	<xs:element name="LBS_libretto_studente_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="LBS_libretto_studente_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="LBS_libretto_studente_20120415Result" nillable="true" type="tns:ArrayOfLIBRETTO_STUDENTE"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfLIBRETTO_STUDENTE">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="LIBRETTO_STUDENTE" nillable="true" type="tns:LIBRETTO_STUDENTE"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfLIBRETTO_STUDENTE" nillable="true" type="tns:ArrayOfLIBRETTO_STUDENTE"/>
-	<xs:complexType name="LIBRETTO_STUDENTE">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="AA_OFFERTA" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="COD_ESSE3_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DATA_SUPERAMENTO" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ESSE3_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_GIADA_PERSONA" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="LODE" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="MODALITA_VALUTAZIONE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="NO_MEDIA" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="PESO" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="STATO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="TIPO_GIUDIZIO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="VOTO" nillable="true" type="xs:long"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="LIBRETTO_STUDENTE" nillable="true" type="tns:LIBRETTO_STUDENTE"/>
-	<xs:element name="AES_anagrafica_estesa_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="AES_anagrafica_estesa_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="AES_anagrafica_estesa_20120415Result" nillable="true" type="tns:ArrayOfANAGRAFICA_ESTESA"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfANAGRAFICA_ESTESA">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ANAGRAFICA_ESTESA" nillable="true" type="tns:ANAGRAFICA_ESTESA"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfANAGRAFICA_ESTESA" nillable="true" type="tns:ArrayOfANAGRAFICA_ESTESA"/>
-	<xs:complexType name="ANAGRAFICA_ESTESA">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="ANAGRAFICA_VALIDA" nillable="true" type="xs:boolean"/>
-			<xs:element minOccurs="0" name="CELLULARE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_CITTADINANZA_EN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_CITTADINANZA_IT" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_CAP" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_CITTA_STRANIERA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_COMUNE_DESCRIZIONE_EN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_COMUNE_DESCRIZIONE_IT" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_FRAZIONE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_ID_ADA_COMUNE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_ID_ADA_NAZIONE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_NAZIONE_DESCRIZIONE_EN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_NAZIONE_DESCRIZIONE_IT" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_NUMERO_CIVICO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_PREFISSO_INTERNAZIONALE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_PRESSO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_PROVINCIA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_TELEFONO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DOMICILIO_VIA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="FAX" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA_CITTADINANZA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_GIADA_PERSONA" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="RESIDENZA_CAP" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_CITTA_STRANIERA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_COMUNE_DESCRIZIONE_EN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_COMUNE_DESCRIZIONE_IT" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_FRAZIONE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_ID_ADA_COMUNE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_ID_ADA_NAZIONE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_NAZIONE_DESCRIZIONE_EN" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_NAZIONE_DESCRIZIONE_IT" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_NUMERO_CIVICO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_PREFISSO_INTERNAZIONALE" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_PROVINCIA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_TELEFONO" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="RESIDENZA_VIA" nillable="true" type="xs:string"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ANAGRAFICA_ESTESA" nillable="true" type="tns:ANAGRAFICA_ESTESA"/>
-	<xs:element name="UCS_ultima_carriera_studente_20120415">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="UCS_ultima_carriera_studente_20120415Response">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" name="UCS_ultima_carriera_studente_20120415Result" nillable="true" type="tns:ArrayOfULTIMA_CARRIERA_STUDENTE"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="ArrayOfULTIMA_CARRIERA_STUDENTE">
-		<xs:sequence>
-			<xs:element minOccurs="0" maxOccurs="unbounded" name="ULTIMA_CARRIERA_STUDENTE" nillable="true" type="tns:ULTIMA_CARRIERA_STUDENTE"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ArrayOfULTIMA_CARRIERA_STUDENTE" nillable="true" type="tns:ArrayOfULTIMA_CARRIERA_STUDENTE"/>
-	<xs:complexType name="ULTIMA_CARRIERA_STUDENTE">
-		<xs:sequence>
-			<xs:element minOccurs="0" name="ANNO_CORSO" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="ANNO_ISCRIZIONE" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="ATTESA_DI_LAUREA" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="CICLO_DOTTORATO" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="COD_ESSE3_CDS" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="COD_ESSE3_MOTIVO_STATO_CARRIERA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="COD_ESSE3_STATO_CARRIERA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="CREDITI" nillable="true" type="xs:double"/>
-			<xs:element minOccurs="0" name="CREDITI_IN_PIANO" nillable="true" type="xs:double"/>
-			<xs:element minOccurs="0" name="DATA_CHIUSURA_CARRIERA" nillable="true" type="xs:dateTime"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_CDS" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_MOTIVO_STATO_CARRIERA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="DESCRIZIONE_STATO_CARRIERA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ESSE3_MATRICOLA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
-			<xs:element minOccurs="0" name="ID_GIADA_PERSONA" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="MEDIA_ARITMETICA" nillable="true" type="xs:double"/>
-			<xs:element minOccurs="0" name="MEDIA_PONDERATA" nillable="true" type="xs:double"/>
-			<xs:element minOccurs="0" name="NUMERO_ESAMI_PIANO" nillable="true" type="xs:long"/>
-			<xs:element minOccurs="0" name="NUMERO_ESAMI_SUPERATI" nillable="true" type="xs:long"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="ULTIMA_CARRIERA_STUDENTE" nillable="true" type="tns:ULTIMA_CARRIERA_STUDENTE"/>
+    <xs:element name="PER_find_cognome_nome">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_cognome_nomeResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_cognome_nomeResult" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfPER_Persona">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="PER_Persona" nillable="true" type="tns:PER_Persona"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfPER_Persona" nillable="true" type="tns:ArrayOfPER_Persona"/>
+    <xs:complexType name="PER_Persona">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="COD_FIS_PER" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="COGNOME" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DATA_NASCITA_PER" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="LUOGO_NASCITA_DESC_ATR" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="LUOGO_NASCITA_ID_ATR" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="MATCH_PROB" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="NAZIONE_NASCITA_DESC_ATR" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="NAZIONE_NASCITA_ID_ATR" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="NOME" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="NOME_PADRE_PER" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="SESSO_PER" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="PER_Persona" nillable="true" type="tns:PER_Persona"/>
+    <xs:element name="PER_find_id_ada">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_id_adaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_id_adaResult" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_posizioni_id_ada">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_posizioni_id_adaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_posizioni_id_adaResult" nillable="true" type="tns:ArrayOfPER_Posizioni"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfPER_Posizioni">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="PER_Posizioni" nillable="true" type="tns:PER_Posizioni"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfPER_Posizioni" nillable="true" type="tns:ArrayOfPER_Posizioni"/>
+    <xs:complexType name="PER_Posizioni">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="DESCRIZIONE_POR" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_PPE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_PRO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_RUO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_RUP" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_SED" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_STO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FINE_POR" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="FINE_PPE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="FINE_SOG" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="INIZIO_POR" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="INIZIO_PPE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="INIZIO_SOG" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="PER_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="POR_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="PPE_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="PRO_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RUO_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RUP_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="SED_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="STO_ID_OGA" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="PER_Posizioni" nillable="true" type="tns:PER_Posizioni"/>
+    <xs:element name="PER_find_cognome_nome_20091229">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_cognome_nome_20091229Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_cognome_nome_20091229Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_id_ada_20091229">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_id_ada_20091229Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_id_ada_20091229Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_posizioni_id_ada_20091229">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_posizioni_id_ada_20091229Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_posizioni_id_ada_20091229Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfPER_Posizioni_20091229">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="PER_Posizioni_20091229" nillable="true" type="tns:PER_Posizioni_20091229"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfPER_Posizioni_20091229" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
+    <xs:complexType name="PER_Posizioni_20091229">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="DESCRIZIONE_FRO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_POR" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_PPE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_PRO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_RUO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_RUP" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_SED" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_STO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FINE_POR" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="FINE_PPE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="FINE_SOG" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="FRO_ID_ATR" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO_POR" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="INIZIO_PPE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="INIZIO_SOG" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="PER_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="POR_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="PPE_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="PRO_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RUO_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RUP_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="SED_ID_OGA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="STO_ID_OGA" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="PER_Posizioni_20091229" nillable="true" type="tns:PER_Posizioni_20091229"/>
+    <xs:element name="VOIP_find_entity_20091229">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="VOIP_find_entity_20091229Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="VOIP_find_entity_20091229Result" nillable="true" type="tns:ArrayOfVOIP_entity"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfVOIP_entity">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="VOIP_entity" nillable="true" type="tns:VOIP_entity"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfVOIP_entity" nillable="true" type="tns:ArrayOfVOIP_entity"/>
+    <xs:complexType name="VOIP_entity">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="DESCRIZIONE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_TOA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="VOIP_entity" nillable="true" type="tns:VOIP_entity"/>
+    <xs:element name="PER_find_all_posizioni_20091229">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_all_posizioni_20091229Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_all_posizioni_20091229Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_find_id_ada_20091229">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_account" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_find_id_ada_20091229Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ACCOUNT_find_id_ada_20091229Result" nillable="true" type="tns:ArrayOfACCOUNT_entity_base"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfACCOUNT_entity_base">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ACCOUNT_entity_base" nillable="true" type="tns:ACCOUNT_entity_base"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfACCOUNT_entity_base" nillable="true" type="tns:ArrayOfACCOUNT_entity_base"/>
+    <xs:complexType name="ACCOUNT_entity_base">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="CELL_UFFICIO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="E_MAIL_UFF" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FAX_UFFICIO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ACCOUNT" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INTERNO_CELL" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="MAIL" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="TEL_UFFICIO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="USERNAME" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ACCOUNT_entity_base" nillable="true" type="tns:ACCOUNT_entity_base"/>
+    <xs:element name="GOG_gerarchia_sto_20091229">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GOG_gerarchia_sto_20091229Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="GOG_gerarchia_sto_20091229Result" nillable="true" type="tns:ArrayOfGOG_relazione_gerarchica"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfGOG_relazione_gerarchica">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="GOG_relazione_gerarchica" nillable="true" type="tns:GOG_relazione_gerarchica"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfGOG_relazione_gerarchica" nillable="true" type="tns:ArrayOfGOG_relazione_gerarchica"/>
+    <xs:complexType name="GOG_relazione_gerarchica">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="FINE_GOG" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="ID_ADA_FIGLIO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA_PADRE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_TSO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO_GOG" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="LIVELLO" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="ORDINE" nillable="true" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="GOG_relazione_gerarchica" nillable="true" type="tns:GOG_relazione_gerarchica"/>
+    <xs:element name="PER_find_cognome_nome_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_cognome_nome_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_cognome_nome_20110214Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_id_ada_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_id_ada_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_id_ada_20110214Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_posizioni_id_ada_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_posizioni_id_ada_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_posizioni_id_ada_20110214Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="VOIP_find_entity_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="VOIP_find_entity_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="VOIP_find_entity_20110214Result" nillable="true" type="tns:ArrayOfVOIP_entity"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_all_posizioni_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_all_posizioni_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_all_posizioni_20110214Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_find_id_ada_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_account" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_find_id_ada_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ACCOUNT_find_id_ada_20110214Result" nillable="true" type="tns:ArrayOfACCOUNT_entity_base"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GOG_gerarchia_sto_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GOG_gerarchia_sto_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="GOG_gerarchia_sto_20110214Result" nillable="true" type="tns:ArrayOfGOG_relazione_gerarchica"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CODE_find_id_fonte_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_fad" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CODE_find_id_fonte_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CODE_find_id_fonte_20110214Result" nillable="true" type="tns:ArrayOfCODE_relation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfCODE_relation">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="CODE_relation" nillable="true" type="tns:CODE_relation"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfCODE_relation" nillable="true" type="tns:ArrayOfCODE_relation"/>
+    <xs:complexType name="CODE_relation">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_FAD" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_FONTE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="CODE_relation" nillable="true" type="tns:CODE_relation"/>
+    <xs:element name="CODE_find_id_ada_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_fad" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_local" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CODE_find_id_ada_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CODE_find_id_ada_20110214Result" nillable="true" type="tns:ArrayOfCODE_relation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DESCRIZIONE_find_oga_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_lingua" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DESCRIZIONE_find_oga_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="DESCRIZIONE_find_oga_20110214Result" nillable="true" type="tns:ArrayOfADA_description"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfADA_description">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ADA_description" nillable="true" type="tns:ADA_description"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfADA_description" nillable="true" type="tns:ArrayOfADA_description"/>
+    <xs:complexType name="ADA_description">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="DESCRIZIONE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_TOA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ADA_description" nillable="true" type="tns:ADA_description"/>
+    <xs:element name="DESCRIZIONE_find_atr_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_lingua" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DESCRIZIONE_find_atr_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="DESCRIZIONE_find_atr_20110214Result" nillable="true" type="tns:ArrayOfADA_description"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADA_ID_find_id_acc_da_username_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADA_ID_find_id_acc_da_username_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ADA_ID_find_id_acc_da_username_20110214Result" nillable="true" type="tns:ArrayOfADA_object_ID"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfADA_object_ID">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ADA_object_ID" nillable="true" type="tns:ADA_object_ID"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfADA_object_ID" nillable="true" type="tns:ArrayOfADA_object_ID"/>
+    <xs:complexType name="ADA_object_ID">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ADA_object_ID" nillable="true" type="tns:ADA_object_ID"/>
+    <xs:element name="ADA_ID_find_id_ada_da_username_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADA_ID_find_id_ada_da_username_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ADA_ID_find_id_ada_da_username_20110214Result" nillable="true" type="tns:ArrayOfADA_object_ID"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="account_tecnici" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="account_non_attivi" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20110214Result" nillable="true" type="tns:ArrayOfACCOUNT_detail"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfACCOUNT_detail">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ACCOUNT_detail" nillable="true" type="tns:ACCOUNT_detail"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfACCOUNT_detail" nillable="true" type="tns:ArrayOfACCOUNT_detail"/>
+    <xs:complexType name="ACCOUNT_detail">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="ID_ACC" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_POA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_TOA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="STATO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="USERNAME" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ACCOUNT_detail" nillable="true" type="tns:ACCOUNT_detail"/>
+    <xs:element name="ACCOUNT_MEMBERSHIP_find_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_acc" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_MEMBERSHIP_find_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ACCOUNT_MEMBERSHIP_find_20110214Result" nillable="true" type="tns:ArrayOfACCOUNT_membership"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfACCOUNT_membership">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ACCOUNT_membership" nillable="true" type="tns:ACCOUNT_membership"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfACCOUNT_membership" nillable="true" type="tns:ArrayOfACCOUNT_membership"/>
+    <xs:complexType name="ACCOUNT_membership">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="DESCRIZIONE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="GID" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="ID_GRU" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ACCOUNT_membership" nillable="true" type="tns:ACCOUNT_membership"/>
+    <xs:element name="GROUP_MEMBER_find_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_gru" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GROUP_MEMBER_find_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="GROUP_MEMBER_find_20110214Result" nillable="true" type="tns:ArrayOfGROUP_member"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfGROUP_member">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="GROUP_member" nillable="true" type="tns:GROUP_member"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfGROUP_member" nillable="true" type="tns:ArrayOfGROUP_member"/>
+    <xs:complexType name="GROUP_member">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="ID_ACC" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="USERNAME" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="GROUP_member" nillable="true" type="tns:GROUP_member"/>
+    <xs:element name="GROUP_find_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_gru" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_tlm" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="gid" nillable="true" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GROUP_find_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="GROUP_find_20110214Result" nillable="true" type="tns:ArrayOfGROUP_detail"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfGROUP_detail">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="GROUP_detail" nillable="true" type="tns:GROUP_detail"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfGROUP_detail" nillable="true" type="tns:ArrayOfGROUP_detail"/>
+    <xs:complexType name="GROUP_detail">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="DESCRIZIONE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_TLM" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="GID" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="ID_GRU" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_TLM" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="GROUP_detail" nillable="true" type="tns:GROUP_detail"/>
+    <xs:element name="PER_find_codici_base_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="rup_id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="ruo_id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="sto_id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="tso_id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="fro_id_atr" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="da_data" nillable="true" type="xs:dateTime"/>
+                <xs:element minOccurs="0" name="a_data" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_codici_base_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_codici_base_20110214Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RECAPITO_find_oga_acc_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_acc" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RECAPITO_find_oga_acc_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="RECAPITO_find_oga_acc_20110214Result" nillable="true" type="tns:ArrayOfRECAPITO"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfRECAPITO">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="RECAPITO" nillable="true" type="tns:RECAPITO"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfRECAPITO" nillable="true" type="tns:ArrayOfRECAPITO"/>
+    <xs:complexType name="RECAPITO">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="CELL_UFFICIO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FAX_UFFICIO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="HOMEPAGE_PERS" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ACCOUNT" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INTERNO_CELL" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="LINK_ISTIT" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="MAIL_FISICA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="MAIL_UNITN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="TEL_UFFICIO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="USERNAME" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="RECAPITO" nillable="true" type="tns:RECAPITO"/>
+    <xs:element name="PER_find_all_posizioni_date_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="da_data" nillable="true" type="xs:dateTime"/>
+                <xs:element minOccurs="0" name="a_data" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_all_posizioni_date_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_all_posizioni_date_20110214Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADI_find_all_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="lingua" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_rif" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADI_find_all_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ADI_find_all_20110214Result" nillable="true" type="tns:ArrayOfATTRIBUTI_DIDATTICA"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfATTRIBUTI_DIDATTICA">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ATTRIBUTI_DIDATTICA" nillable="true" type="tns:ATTRIBUTI_DIDATTICA"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfATTRIBUTI_DIDATTICA" nillable="true" type="tns:ArrayOfATTRIBUTI_DIDATTICA"/>
+    <xs:complexType name="ATTRIBUTI_DIDATTICA">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="DESCRIZIONE_AREA_CUN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_SSD" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_AREA_CUN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_SSD" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="SSD_ID_ATR" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ATTRIBUTI_DIDATTICA" nillable="true" type="tns:ATTRIBUTI_DIDATTICA"/>
+    <xs:element name="SSD_find_all_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_atr" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_ssd" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_acu" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="lingua" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SSD_find_all_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="SSD_find_all_20110214Result" nillable="true" type="tns:ArrayOfSETTORE_SD_AREA_CUN"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfSETTORE_SD_AREA_CUN">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="SETTORE_SD_AREA_CUN" nillable="true" type="tns:SETTORE_SD_AREA_CUN"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfSETTORE_SD_AREA_CUN" nillable="true" type="tns:ArrayOfSETTORE_SD_AREA_CUN"/>
+    <xs:complexType name="SETTORE_SD_AREA_CUN">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="DESCRIZIONE_AREA_CUN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_SSD" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="ID_AREA_CUN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_SSD" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="LINGUA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="SSD_ID_ATR" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="SETTORE_SD_AREA_CUN" nillable="true" type="tns:SETTORE_SD_AREA_CUN"/>
+    <xs:element name="APE_find_all_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_rif" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="APE_find_all_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="APE_find_all_20110214Result" nillable="true" type="tns:ArrayOfATTRIBUTI_PERSONALI"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfATTRIBUTI_PERSONALI">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ATTRIBUTI_PERSONALI" nillable="true" type="tns:ATTRIBUTI_PERSONALI"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfATTRIBUTI_PERSONALI" nillable="true" type="tns:ArrayOfATTRIBUTI_PERSONALI"/>
+    <xs:complexType name="ATTRIBUTI_PERSONALI">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="ALIAS_COGNOME" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ALIAS_NOME" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FINE" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="INIZIO" nillable="true" type="xs:dateTime"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ATTRIBUTI_PERSONALI" nillable="true" type="tns:ATTRIBUTI_PERSONALI"/>
+    <xs:element name="PER_check_identity_20110214">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="codfis" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="loc_id_atr" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="naz_id_atr" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_nasc" nillable="true" type="xs:dateTime"/>
+                <xs:element minOccurs="0" name="sesso" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="nome_padre" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="indice_rigidita_fuzzy" nillable="true" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_check_identity_20110214Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_check_identity_20110214Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_cognome_nome_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_cognome_nome_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_cognome_nome_20120415Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_id_ada_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_id_ada_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_id_ada_20120415Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_posizioni_id_ada_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_posizioni_id_ada_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_posizioni_id_ada_20120415Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="VOIP_find_entity_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="VOIP_find_entity_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="VOIP_find_entity_20120415Result" nillable="true" type="tns:ArrayOfVOIP_entity"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_all_posizioni_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_all_posizioni_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_all_posizioni_20120415Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_find_id_ada_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_account" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_find_id_ada_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ACCOUNT_find_id_ada_20120415Result" nillable="true" type="tns:ArrayOfACCOUNT_entity_base"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GOG_gerarchia_sto_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GOG_gerarchia_sto_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="GOG_gerarchia_sto_20120415Result" nillable="true" type="tns:ArrayOfGOG_relazione_gerarchica"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CODE_find_id_fonte_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_fad" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CODE_find_id_fonte_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CODE_find_id_fonte_20120415Result" nillable="true" type="tns:ArrayOfCODE_relation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CODE_find_id_ada_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_fad" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_local" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CODE_find_id_ada_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CODE_find_id_ada_20120415Result" nillable="true" type="tns:ArrayOfCODE_relation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DESCRIZIONE_find_oga_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_lingua" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DESCRIZIONE_find_oga_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="DESCRIZIONE_find_oga_20120415Result" nillable="true" type="tns:ArrayOfADA_description"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DESCRIZIONE_find_atr_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_toa" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_lingua" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_riferimento" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DESCRIZIONE_find_atr_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="DESCRIZIONE_find_atr_20120415Result" nillable="true" type="tns:ArrayOfADA_description"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADA_ID_find_id_acc_da_username_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADA_ID_find_id_acc_da_username_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ADA_ID_find_id_acc_da_username_20120415Result" nillable="true" type="tns:ArrayOfADA_object_ID"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADA_ID_find_id_ada_da_username_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="username" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADA_ID_find_id_ada_da_username_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ADA_ID_find_id_ada_da_username_20120415Result" nillable="true" type="tns:ArrayOfADA_object_ID"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="account_tecnici" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="account_non_attivi" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20120415Result" nillable="true" type="tns:ArrayOfACCOUNT_detail"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_MEMBERSHIP_find_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_acc" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ACCOUNT_MEMBERSHIP_find_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ACCOUNT_MEMBERSHIP_find_20120415Result" nillable="true" type="tns:ArrayOfACCOUNT_membership"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GROUP_MEMBER_find_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_gru" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GROUP_MEMBER_find_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="GROUP_MEMBER_find_20120415Result" nillable="true" type="tns:ArrayOfGROUP_member"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GROUP_find_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_gru" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_tlm" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="gid" nillable="true" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GROUP_find_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="GROUP_find_20120415Result" nillable="true" type="tns:ArrayOfGROUP_detail"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_codici_base_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="rup_id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="ruo_id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="sto_id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="tso_id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="fro_id_atr" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="da_data" nillable="true" type="xs:dateTime"/>
+                <xs:element minOccurs="0" name="a_data" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_codici_base_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_codici_base_20120415Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RECAPITO_find_oga_acc_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_oga" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_acc" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RECAPITO_find_oga_acc_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="RECAPITO_find_oga_acc_20120415Result" nillable="true" type="tns:ArrayOfRECAPITO"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_all_posizioni_date_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="da_data" nillable="true" type="xs:dateTime"/>
+                <xs:element minOccurs="0" name="a_data" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_find_all_posizioni_date_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_find_all_posizioni_date_20120415Result" nillable="true" type="tns:ArrayOfPER_Posizioni_20091229"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADI_find_all_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="lingua" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_rif" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ADI_find_all_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="ADI_find_all_20120415Result" nillable="true" type="tns:ArrayOfATTRIBUTI_DIDATTICA"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SSD_find_all_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_atr" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_ssd" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="id_acu" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="lingua" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SSD_find_all_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="SSD_find_all_20120415Result" nillable="true" type="tns:ArrayOfSETTORE_SD_AREA_CUN"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="APE_find_all_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_rif" nillable="true" type="xs:dateTime"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="APE_find_all_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="APE_find_all_20120415Result" nillable="true" type="tns:ArrayOfATTRIBUTI_PERSONALI"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_check_identity_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="cognome" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="nome" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="codfis" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="loc_id_atr" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="naz_id_atr" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="data_nasc" nillable="true" type="xs:dateTime"/>
+                <xs:element minOccurs="0" name="sesso" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="nome_padre" nillable="true" type="xs:string"/>
+                <xs:element minOccurs="0" name="indice_rigidita_fuzzy" nillable="true" type="xs:double"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_check_identity_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_check_identity_20120415Result" nillable="true" type="tns:ArrayOfPER_Persona"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_attivita_didattiche_sostenute_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="PER_attivita_didattiche_sostenute_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PER_attivita_didattiche_sostenute_20120415Result" nillable="true" type="tns:ArrayOfATTIVITA_DIDATTICA_SOSTENUTA"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfATTIVITA_DIDATTICA_SOSTENUTA">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ATTIVITA_DIDATTICA_SOSTENUTA" nillable="true" type="tns:ATTIVITA_DIDATTICA_SOSTENUTA"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfATTIVITA_DIDATTICA_SOSTENUTA" nillable="true" type="tns:ArrayOfATTIVITA_DIDATTICA_SOSTENUTA"/>
+    <xs:complexType name="ATTIVITA_DIDATTICA_SOSTENUTA">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="COD_ESSE3_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DATA_SUPERAMENTO" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ESSE3_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ATTIVITA_DIDATTICA_SOSTENUTA" nillable="true" type="tns:ATTIVITA_DIDATTICA_SOSTENUTA"/>
+    <xs:element name="LBS_libretto_studente_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="LBS_libretto_studente_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="LBS_libretto_studente_20120415Result" nillable="true" type="tns:ArrayOfLIBRETTO_STUDENTE"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfLIBRETTO_STUDENTE">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="LIBRETTO_STUDENTE" nillable="true" type="tns:LIBRETTO_STUDENTE"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfLIBRETTO_STUDENTE" nillable="true" type="tns:ArrayOfLIBRETTO_STUDENTE"/>
+    <xs:complexType name="LIBRETTO_STUDENTE">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="AA_OFFERTA" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="COD_ESSE3_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DATA_SUPERAMENTO" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ESSE3_ATTIVITA_DIDATTICA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_GIADA_PERSONA" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="LODE" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="MODALITA_VALUTAZIONE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="NO_MEDIA" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="PESO" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="STATO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="TIPO_GIUDIZIO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="VOTO" nillable="true" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="LIBRETTO_STUDENTE" nillable="true" type="tns:LIBRETTO_STUDENTE"/>
+    <xs:element name="AES_anagrafica_estesa_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AES_anagrafica_estesa_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="AES_anagrafica_estesa_20120415Result" nillable="true" type="tns:ArrayOfANAGRAFICA_ESTESA"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfANAGRAFICA_ESTESA">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ANAGRAFICA_ESTESA" nillable="true" type="tns:ANAGRAFICA_ESTESA"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfANAGRAFICA_ESTESA" nillable="true" type="tns:ArrayOfANAGRAFICA_ESTESA"/>
+    <xs:complexType name="ANAGRAFICA_ESTESA">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="ANAGRAFICA_VALIDA" nillable="true" type="xs:boolean"/>
+            <xs:element minOccurs="0" name="CELLULARE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_CITTADINANZA_EN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_CITTADINANZA_IT" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_CAP" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_CITTA_STRANIERA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_COMUNE_DESCRIZIONE_EN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_COMUNE_DESCRIZIONE_IT" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_FRAZIONE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_ID_ADA_COMUNE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_ID_ADA_NAZIONE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_NAZIONE_DESCRIZIONE_EN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_NAZIONE_DESCRIZIONE_IT" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_NUMERO_CIVICO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_PREFISSO_INTERNAZIONALE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_PRESSO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_PROVINCIA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_TELEFONO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DOMICILIO_VIA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="FAX" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA_CITTADINANZA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_GIADA_PERSONA" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="RESIDENZA_CAP" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_CITTA_STRANIERA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_COMUNE_DESCRIZIONE_EN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_COMUNE_DESCRIZIONE_IT" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_FRAZIONE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_ID_ADA_COMUNE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_ID_ADA_NAZIONE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_NAZIONE_DESCRIZIONE_EN" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_NAZIONE_DESCRIZIONE_IT" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_NUMERO_CIVICO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_PREFISSO_INTERNAZIONALE" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_PROVINCIA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_TELEFONO" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="RESIDENZA_VIA" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ANAGRAFICA_ESTESA" nillable="true" type="tns:ANAGRAFICA_ESTESA"/>
+    <xs:element name="UCS_ultima_carriera_studente_20120415">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="id_ada" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="UCS_ultima_carriera_studente_20120415Response">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="UCS_ultima_carriera_studente_20120415Result" nillable="true" type="tns:ArrayOfULTIMA_CARRIERA_STUDENTE"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="ArrayOfULTIMA_CARRIERA_STUDENTE">
+        <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="ULTIMA_CARRIERA_STUDENTE" nillable="true" type="tns:ULTIMA_CARRIERA_STUDENTE"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ArrayOfULTIMA_CARRIERA_STUDENTE" nillable="true" type="tns:ArrayOfULTIMA_CARRIERA_STUDENTE"/>
+    <xs:complexType name="ULTIMA_CARRIERA_STUDENTE">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="ANNO_CORSO" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="ANNO_ISCRIZIONE" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="ATTESA_DI_LAUREA" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="CICLO_DOTTORATO" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="COD_ESSE3_CDS" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="COD_ESSE3_MOTIVO_STATO_CARRIERA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="COD_ESSE3_STATO_CARRIERA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="CREDITI" nillable="true" type="xs:double"/>
+            <xs:element minOccurs="0" name="CREDITI_IN_PIANO" nillable="true" type="xs:double"/>
+            <xs:element minOccurs="0" name="DATA_CHIUSURA_CARRIERA" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_CDS" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_MOTIVO_STATO_CARRIERA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="DESCRIZIONE_STATO_CARRIERA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ESSE3_MATRICOLA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_ADA" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="ID_GIADA_PERSONA" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="MEDIA_ARITMETICA" nillable="true" type="xs:double"/>
+            <xs:element minOccurs="0" name="MEDIA_PONDERATA" nillable="true" type="xs:double"/>
+            <xs:element minOccurs="0" name="NUMERO_ESAMI_PIANO" nillable="true" type="xs:long"/>
+            <xs:element minOccurs="0" name="NUMERO_ESAMI_SUPERATI" nillable="true" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="ULTIMA_CARRIERA_STUDENTE" nillable="true" type="tns:ULTIMA_CARRIERA_STUDENTE"/>
 </xs:schema>
