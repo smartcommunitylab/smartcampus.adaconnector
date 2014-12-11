@@ -37,9 +37,9 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "ACCOUNT_find_id_ada_20120415")
 public class ACCOUNTFindIdAda20120415 {
 
-    @XmlElementRef(name = "id_ada", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_ada", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idAda;
-    @XmlElementRef(name = "id_account", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_account", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idAccount;
 
     /**

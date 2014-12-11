@@ -42,13 +42,13 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlRootElement(name = "CODE_find_id_ada_20110214")
 public class CODEFindIdAda20110214 {
 
-    @XmlElementRef(name = "id_toa", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_toa", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idToa;
-    @XmlElementRef(name = "id_fad", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_fad", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idFad;
-    @XmlElementRef(name = "id_local", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_local", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idLocal;
-    @XmlElementRef(name = "data_riferimento", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "data_riferimento", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> dataRiferimento;
 
     /**

@@ -46,19 +46,19 @@ import javax.xml.datatype.XMLGregorianCalendar;
 })
 public class GROUPDetail {
 
-    @XmlElementRef(name = "DESCRIZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DESCRIZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> descrizione;
-    @XmlElementRef(name = "DESCRIZIONE_TLM", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DESCRIZIONE_TLM", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> descrizionetlm;
-    @XmlElementRef(name = "FINE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "FINE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> fine;
-    @XmlElementRef(name = "GID", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "GID", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> gid;
-    @XmlElementRef(name = "ID_GRU", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_GRU", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idgru;
-    @XmlElementRef(name = "ID_TLM", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_TLM", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idtlm;
-    @XmlElementRef(name = "INIZIO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "INIZIO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> inizio;
 
     /**

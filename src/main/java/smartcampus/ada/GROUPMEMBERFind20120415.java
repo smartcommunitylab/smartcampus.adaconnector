@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "GROUP_MEMBER_find_20120415")
 public class GROUPMEMBERFind20120415 {
 
-    @XmlElementRef(name = "id_gru", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_gru", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idGru;
 
     /**

@@ -41,13 +41,13 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "GROUP_find_20120415")
 public class GROUPFind20120415 {
 
-    @XmlElementRef(name = "id_gru", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_gru", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idGru;
-    @XmlElementRef(name = "id_tlm", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_tlm", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idTlm;
-    @XmlElementRef(name = "descrizione", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "descrizione", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> descrizione;
-    @XmlElementRef(name = "gid", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "gid", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> gid;
 
     /**

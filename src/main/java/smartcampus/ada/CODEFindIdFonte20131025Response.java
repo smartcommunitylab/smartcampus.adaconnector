@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "CODE_find_id_fonte_20131025Response")
 public class CODEFindIdFonte20131025Response {
 
-    @XmlElementRef(name = "CODE_find_id_fonte_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "CODE_find_id_fonte_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfCODERelation> codeFindIdFonte20131025Result;
 
     /**

@@ -40,11 +40,11 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlRootElement(name = "PER_find_all_posizioni_date_20131025")
 public class PERFindAllPosizioniDate20131025 {
 
-    @XmlElementRef(name = "id_ada", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_ada", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idAda;
-    @XmlElementRef(name = "da_data", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "da_data", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> daData;
-    @XmlElementRef(name = "a_data", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "a_data", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> aData;
 
     /**

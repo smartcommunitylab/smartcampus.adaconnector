@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "VOIP_find_entity_20110214Response")
 public class VOIPFindEntity20110214Response {
 
-    @XmlElementRef(name = "VOIP_find_entity_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "VOIP_find_entity_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfVOIPEntity> voipFindEntity20110214Result;
 
     /**

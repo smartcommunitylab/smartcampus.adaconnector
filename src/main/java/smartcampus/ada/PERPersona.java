@@ -56,29 +56,29 @@ import javax.xml.datatype.XMLGregorianCalendar;
 })
 public class PERPersona {
 
-    @XmlElementRef(name = "COD_FIS_PER", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "COD_FIS_PER", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> codfisper;
-    @XmlElementRef(name = "COGNOME", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "COGNOME", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> cognome;
-    @XmlElementRef(name = "DATA_NASCITA_PER", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DATA_NASCITA_PER", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> datanascitaper;
-    @XmlElementRef(name = "ID_OGA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_OGA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idoga;
-    @XmlElementRef(name = "LUOGO_NASCITA_DESC_ATR", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "LUOGO_NASCITA_DESC_ATR", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> luogonascitadescatr;
-    @XmlElementRef(name = "LUOGO_NASCITA_ID_ATR", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "LUOGO_NASCITA_ID_ATR", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> luogonascitaidatr;
-    @XmlElementRef(name = "MATCH_PROB", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "MATCH_PROB", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> matchprob;
-    @XmlElementRef(name = "NAZIONE_NASCITA_DESC_ATR", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "NAZIONE_NASCITA_DESC_ATR", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> nazionenascitadescatr;
-    @XmlElementRef(name = "NAZIONE_NASCITA_ID_ATR", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "NAZIONE_NASCITA_ID_ATR", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> nazionenascitaidatr;
-    @XmlElementRef(name = "NOME", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "NOME", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> nome;
-    @XmlElementRef(name = "NOME_PADRE_PER", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "NOME_PADRE_PER", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> nomepadreper;
-    @XmlElementRef(name = "SESSO_PER", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "SESSO_PER", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> sessoper;
 
     /**

@@ -38,9 +38,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlRootElement(name = "APE_find_all_20110214")
 public class APEFindAll20110214 {
 
-    @XmlElementRef(name = "id_ada", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_ada", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idAda;
-    @XmlElementRef(name = "data_rif", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "data_rif", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> dataRif;
 
     /**

@@ -46,19 +46,19 @@ import javax.xml.datatype.XMLGregorianCalendar;
 })
 public class GOGRelazioneGerarchica {
 
-    @XmlElementRef(name = "FINE_GOG", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "FINE_GOG", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> finegog;
-    @XmlElementRef(name = "ID_ADA_FIGLIO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_ADA_FIGLIO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idadafiglio;
-    @XmlElementRef(name = "ID_ADA_PADRE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_ADA_PADRE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idadapadre;
-    @XmlElementRef(name = "ID_TSO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_TSO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idtso;
-    @XmlElementRef(name = "INIZIO_GOG", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "INIZIO_GOG", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> iniziogog;
-    @XmlElementRef(name = "LIVELLO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "LIVELLO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> livello;
-    @XmlElementRef(name = "ORDINE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ORDINE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> ordine;
 
     /**

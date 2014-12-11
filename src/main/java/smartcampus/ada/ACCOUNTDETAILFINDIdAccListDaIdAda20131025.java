@@ -39,11 +39,11 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "ACCOUNT_DETAIL_FIND_id_acc_list_da_id_ada_20131025")
 public class ACCOUNTDETAILFINDIdAccListDaIdAda20131025 {
 
-    @XmlElementRef(name = "id_ada", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_ada", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idAda;
-    @XmlElementRef(name = "account_tecnici", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "account_tecnici", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> accountTecnici;
-    @XmlElementRef(name = "account_non_attivi", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "account_non_attivi", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> accountNonAttivi;
 
     /**

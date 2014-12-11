@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "UCS_ultima_carriera_studente_20131025Response")
 public class UCSUltimaCarrieraStudente20131025Response {
 
-    @XmlElementRef(name = "UCS_ultima_carriera_studente_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "UCS_ultima_carriera_studente_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfULTIMACARRIERASTUDENTE> ucsUltimaCarrieraStudente20131025Result;
 
     /**

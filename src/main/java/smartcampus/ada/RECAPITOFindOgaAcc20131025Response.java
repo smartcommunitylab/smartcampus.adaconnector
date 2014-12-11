@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "RECAPITO_find_oga_acc_20131025Response")
 public class RECAPITOFindOgaAcc20131025Response {
 
-    @XmlElementRef(name = "RECAPITO_find_oga_acc_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RECAPITO_find_oga_acc_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfRECAPITO> recapitoFindOgaAcc20131025Result;
 
     /**

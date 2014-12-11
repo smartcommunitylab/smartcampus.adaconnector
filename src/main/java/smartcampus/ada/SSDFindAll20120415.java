@@ -41,13 +41,13 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "SSD_find_all_20120415")
 public class SSDFindAll20120415 {
 
-    @XmlElementRef(name = "id_atr", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_atr", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idAtr;
-    @XmlElementRef(name = "id_ssd", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_ssd", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idSsd;
-    @XmlElementRef(name = "id_acu", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "id_acu", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idAcu;
-    @XmlElementRef(name = "lingua", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "lingua", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> lingua;
 
     /**

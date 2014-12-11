@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "AES_anagrafica_estesa_20131025Response")
 public class AESAnagraficaEstesa20131025Response {
 
-    @XmlElementRef(name = "AES_anagrafica_estesa_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "AES_anagrafica_estesa_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfANAGRAFICAESTESA20131025> aesAnagraficaEstesa20131025Result;
 
     /**

@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "ADI_find_all_20110214Response")
 public class ADIFindAll20110214Response {
 
-    @XmlElementRef(name = "ADI_find_all_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ADI_find_all_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfATTRIBUTIDIDATTICA> adiFindAll20110214Result;
 
     /**

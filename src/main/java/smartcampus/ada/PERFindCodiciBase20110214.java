@@ -48,19 +48,19 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlRootElement(name = "PER_find_codici_base_20110214")
 public class PERFindCodiciBase20110214 {
 
-    @XmlElementRef(name = "rup_id_oga", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "rup_id_oga", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> rupIdOga;
-    @XmlElementRef(name = "ruo_id_oga", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ruo_id_oga", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> ruoIdOga;
-    @XmlElementRef(name = "sto_id_oga", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "sto_id_oga", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> stoIdOga;
-    @XmlElementRef(name = "tso_id_oga", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "tso_id_oga", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> tsoIdOga;
-    @XmlElementRef(name = "fro_id_atr", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "fro_id_atr", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> froIdAtr;
-    @XmlElementRef(name = "da_data", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "da_data", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> daData;
-    @XmlElementRef(name = "a_data", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "a_data", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> aData;
 
     /**

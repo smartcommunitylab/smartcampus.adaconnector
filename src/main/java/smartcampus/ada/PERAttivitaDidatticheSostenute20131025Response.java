@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "PER_attivita_didattiche_sostenute_20131025Response")
 public class PERAttivitaDidatticheSostenute20131025Response {
 
-    @XmlElementRef(name = "PER_attivita_didattiche_sostenute_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "PER_attivita_didattiche_sostenute_20131025Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfATTIVITADIDATTICASOSTENUTA> perAttivitaDidatticheSostenute20131025Result;
 
     /**

@@ -82,55 +82,55 @@ import javax.xml.datatype.XMLGregorianCalendar;
 })
 public class CARRIERESTUDENTE {
 
-    @XmlElementRef(name = "ANNI_FUORI_CORSO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ANNI_FUORI_CORSO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> annifuoricorso;
-    @XmlElementRef(name = "ANNO_CORSO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ANNO_CORSO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> annocorso;
-    @XmlElementRef(name = "ANNO_ISCRIZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ANNO_ISCRIZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> annoiscrizione;
-    @XmlElementRef(name = "ATTESA_DI_LAUREA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ATTESA_DI_LAUREA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> attesadilaurea;
-    @XmlElementRef(name = "CICLO_DOTTORATO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "CICLO_DOTTORATO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> ciclodottorato;
-    @XmlElementRef(name = "COD_ESSE3_CDS", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "COD_ESSE3_CDS", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> codesse3CDS;
-    @XmlElementRef(name = "COD_ESSE3_MOTIVO_STATO_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "COD_ESSE3_MOTIVO_STATO_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> codesse3MOTIVOSTATOCARRIERA;
-    @XmlElementRef(name = "COD_ESSE3_STATO_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "COD_ESSE3_STATO_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> codesse3STATOCARRIERA;
-    @XmlElementRef(name = "CREDITI", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "CREDITI", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Double> crediti;
-    @XmlElementRef(name = "CREDITI_IN_PIANO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "CREDITI_IN_PIANO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Double> creditiinpiano;
-    @XmlElementRef(name = "DATA_CHIUSURA_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DATA_CHIUSURA_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> datachiusuracarriera;
-    @XmlElementRef(name = "DATA_IMMATRICOLAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DATA_IMMATRICOLAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<XMLGregorianCalendar> dataimmatricolazione;
-    @XmlElementRef(name = "DESCRIZIONE_CDS", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DESCRIZIONE_CDS", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> descrizionecds;
-    @XmlElementRef(name = "DESCRIZIONE_MOTIVO_STATO_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DESCRIZIONE_MOTIVO_STATO_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> descrizionemotivostatocarriera;
-    @XmlElementRef(name = "DESCRIZIONE_STATO_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DESCRIZIONE_STATO_CARRIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> descrizionestatocarriera;
-    @XmlElementRef(name = "DESCRIZIONE_TIPO_CDS", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DESCRIZIONE_TIPO_CDS", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> descrizionetipocds;
-    @XmlElementRef(name = "ESSE3_MATRICOLA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ESSE3_MATRICOLA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> esse3MATRICOLA;
-    @XmlElementRef(name = "ID_ADA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_ADA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idada;
-    @XmlElementRef(name = "ID_ESSE3_STU", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_ESSE3_STU", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> idesse3STU;
-    @XmlElementRef(name = "ID_GIADA_PERSONA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_GIADA_PERSONA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> idgiadapersona;
-    @XmlElementRef(name = "MEDIA_ARITMETICA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "MEDIA_ARITMETICA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Double> mediaaritmetica;
-    @XmlElementRef(name = "MEDIA_PONDERATA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "MEDIA_PONDERATA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Double> mediaponderata;
-    @XmlElementRef(name = "NUMERO_ESAMI_PIANO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "NUMERO_ESAMI_PIANO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> numeroesamipiano;
-    @XmlElementRef(name = "NUMERO_ESAMI_SUPERATI", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "NUMERO_ESAMI_SUPERATI", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> numeroesamisuperati;
-    @XmlElementRef(name = "TIPO_CDS_ESSE3", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "TIPO_CDS_ESSE3", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> tipocdsesse3;
 
     /**

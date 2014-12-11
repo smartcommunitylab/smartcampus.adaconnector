@@ -33,7 +33,7 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class ADAObjectID {
 
-    @XmlElementRef(name = "ID_ADA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_ADA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idada;
 
     /**

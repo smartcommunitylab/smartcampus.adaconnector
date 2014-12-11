@@ -107,81 +107,81 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class ANAGRAFICAESTESA20131025 {
 
-    @XmlElementRef(name = "ANAGRAFICA_VALIDA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ANAGRAFICA_VALIDA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Boolean> anagraficavalida;
-    @XmlElementRef(name = "CELLULARE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "CELLULARE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> cellulare;
-    @XmlElementRef(name = "DESCRIZIONE_CITTADINANZA_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DESCRIZIONE_CITTADINANZA_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> descrizionecittadinanzaen;
-    @XmlElementRef(name = "DESCRIZIONE_CITTADINANZA_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DESCRIZIONE_CITTADINANZA_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> descrizionecittadinanzait;
-    @XmlElementRef(name = "DOMICILIO_CAP", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_CAP", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domiciliocap;
-    @XmlElementRef(name = "DOMICILIO_CITTA_STRANIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_CITTA_STRANIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domiciliocittastraniera;
-    @XmlElementRef(name = "DOMICILIO_COMUNE_DESCRIZIONE_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_COMUNE_DESCRIZIONE_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domiciliocomunedescrizioneen;
-    @XmlElementRef(name = "DOMICILIO_COMUNE_DESCRIZIONE_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_COMUNE_DESCRIZIONE_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domiciliocomunedescrizioneit;
-    @XmlElementRef(name = "DOMICILIO_FRAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_FRAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domiciliofrazione;
-    @XmlElementRef(name = "DOMICILIO_ID_ADA_COMUNE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_ID_ADA_COMUNE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domicilioidadacomune;
-    @XmlElementRef(name = "DOMICILIO_ID_ADA_NAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_ID_ADA_NAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domicilioidadanazione;
-    @XmlElementRef(name = "DOMICILIO_NAZIONE_DESCRIZIONE_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_NAZIONE_DESCRIZIONE_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domicilionazionedescrizioneen;
-    @XmlElementRef(name = "DOMICILIO_NAZIONE_DESCRIZIONE_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_NAZIONE_DESCRIZIONE_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domicilionazionedescrizioneit;
-    @XmlElementRef(name = "DOMICILIO_NUMERO_CIVICO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_NUMERO_CIVICO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domicilionumerocivico;
-    @XmlElementRef(name = "DOMICILIO_PREFISSO_INTERNAZIONALE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_PREFISSO_INTERNAZIONALE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domicilioprefissointernazionale;
-    @XmlElementRef(name = "DOMICILIO_PRESSO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_PRESSO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domiciliopresso;
-    @XmlElementRef(name = "DOMICILIO_PROVINCIA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_PROVINCIA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domicilioprovincia;
-    @XmlElementRef(name = "DOMICILIO_TELEFONO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_TELEFONO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domiciliotelefono;
-    @XmlElementRef(name = "DOMICILIO_VIA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DOMICILIO_VIA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> domiciliovia;
-    @XmlElementRef(name = "EMAIL_PERSONALE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "EMAIL_PERSONALE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> emailpersonale;
-    @XmlElementRef(name = "FAX", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "FAX", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> fax;
-    @XmlElementRef(name = "ID_ADA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_ADA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idada;
-    @XmlElementRef(name = "ID_ADA_CITTADINANZA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_ADA_CITTADINANZA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> idadacittadinanza;
-    @XmlElementRef(name = "ID_GIADA_PERSONA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "ID_GIADA_PERSONA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<Long> idgiadapersona;
-    @XmlElementRef(name = "RESIDENZA_CAP", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_CAP", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzacap;
-    @XmlElementRef(name = "RESIDENZA_CITTA_STRANIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_CITTA_STRANIERA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzacittastraniera;
-    @XmlElementRef(name = "RESIDENZA_COMUNE_DESCRIZIONE_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_COMUNE_DESCRIZIONE_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzacomunedescrizioneen;
-    @XmlElementRef(name = "RESIDENZA_COMUNE_DESCRIZIONE_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_COMUNE_DESCRIZIONE_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzacomunedescrizioneit;
-    @XmlElementRef(name = "RESIDENZA_FRAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_FRAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzafrazione;
-    @XmlElementRef(name = "RESIDENZA_ID_ADA_COMUNE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_ID_ADA_COMUNE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzaidadacomune;
-    @XmlElementRef(name = "RESIDENZA_ID_ADA_NAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_ID_ADA_NAZIONE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzaidadanazione;
-    @XmlElementRef(name = "RESIDENZA_NAZIONE_DESCRIZIONE_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_NAZIONE_DESCRIZIONE_EN", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzanazionedescrizioneen;
-    @XmlElementRef(name = "RESIDENZA_NAZIONE_DESCRIZIONE_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_NAZIONE_DESCRIZIONE_IT", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzanazionedescrizioneit;
-    @XmlElementRef(name = "RESIDENZA_NUMERO_CIVICO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_NUMERO_CIVICO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzanumerocivico;
-    @XmlElementRef(name = "RESIDENZA_PREFISSO_INTERNAZIONALE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_PREFISSO_INTERNAZIONALE", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzaprefissointernazionale;
-    @XmlElementRef(name = "RESIDENZA_PROVINCIA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_PROVINCIA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzaprovincia;
-    @XmlElementRef(name = "RESIDENZA_TELEFONO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_TELEFONO", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzatelefono;
-    @XmlElementRef(name = "RESIDENZA_VIA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "RESIDENZA_VIA", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<String> residenzavia;
 
     /**

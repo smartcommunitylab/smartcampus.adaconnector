@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "PER_find_cognome_nomeResponse")
 public class PERFindCognomeNomeResponse {
 
-    @XmlElementRef(name = "PER_find_cognome_nomeResult", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "PER_find_cognome_nomeResult", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfPERPersona> perFindCognomeNomeResult;
 
     /**

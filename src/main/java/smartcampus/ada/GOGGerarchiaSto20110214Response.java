@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "GOG_gerarchia_sto_20110214Response")
 public class GOGGerarchiaSto20110214Response {
 
-    @XmlElementRef(name = "GOG_gerarchia_sto_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "GOG_gerarchia_sto_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfGOGRelazioneGerarchica> gogGerarchiaSto20110214Result;
 
     /**

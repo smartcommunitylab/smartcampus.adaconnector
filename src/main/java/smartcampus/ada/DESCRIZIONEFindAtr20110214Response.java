@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "DESCRIZIONE_find_atr_20110214Response")
 public class DESCRIZIONEFindAtr20110214Response {
 
-    @XmlElementRef(name = "DESCRIZIONE_find_atr_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "DESCRIZIONE_find_atr_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfADADescription> descrizioneFindAtr20110214Result;
 
     /**

@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "SSD_find_all_20110214Response")
 public class SSDFindAll20110214Response {
 
-    @XmlElementRef(name = "SSD_find_all_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "SSD_find_all_20110214Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfSETTORESDAREACUN> ssdFindAll20110214Result;
 
     /**

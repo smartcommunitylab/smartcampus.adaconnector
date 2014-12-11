@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "APE_find_all_20120415Response")
 public class APEFindAll20120415Response {
 
-    @XmlElementRef(name = "APE_find_all_20120415Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "APE_find_all_20120415Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfATTRIBUTIPERSONALI> apeFindAll20120415Result;
 
     /**

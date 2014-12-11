@@ -35,7 +35,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "PER_check_identity_20120415Response")
 public class PERCheckIdentity20120415Response {
 
-    @XmlElementRef(name = "PER_check_identity_20120415Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class, required = false)
+    @XmlElementRef(name = "PER_check_identity_20120415Result", namespace = "http://Data.ADAWs.unitn.it", type = JAXBElement.class)
     protected JAXBElement<ArrayOfPERPersona> perCheckIdentity20120415Result;
 
     /**

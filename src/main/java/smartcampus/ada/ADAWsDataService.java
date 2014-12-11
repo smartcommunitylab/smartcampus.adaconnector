@@ -43,7 +43,7 @@ public class ADAWsDataService
     }
 
     public ADAWsDataService(WebServiceFeature... features) {
-        super(__getWsdlLocation(), ADAWSDATASERVICE_QNAME, features);
+        super(__getWsdlLocation(), ADAWSDATASERVICE_QNAME);
     }
 
     public ADAWsDataService(URL wsdlLocation) {
@@ -51,7 +51,7 @@ public class ADAWsDataService
     }
 
     public ADAWsDataService(URL wsdlLocation, WebServiceFeature... features) {
-        super(wsdlLocation, ADAWSDATASERVICE_QNAME, features);
+        super(wsdlLocation, ADAWSDATASERVICE_QNAME);
     }
 
     public ADAWsDataService(URL wsdlLocation, QName serviceName) {
@@ -59,7 +59,7 @@ public class ADAWsDataService
     }
 
     public ADAWsDataService(URL wsdlLocation, QName serviceName, WebServiceFeature... features) {
-        super(wsdlLocation, serviceName, features);
+        super(wsdlLocation, serviceName);
     }
 
     /**
