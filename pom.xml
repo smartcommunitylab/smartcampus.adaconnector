@@ -7,7 +7,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<jaxws.plugin.version>2.2</jaxws.plugin.version>
+		<jaxws.plugin.version>2.3</jaxws.plugin.version>
 	</properties>
 
 	<dependencies>
@@ -17,7 +17,7 @@
 			<version>2.1</version>
 			<type>jar</type>
 			<scope>test</scope>
-		</dependency>	    
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -50,26 +50,23 @@
 						<goals>
 							<goal>wsimport</goal>
 						</goals>
-						<configuration>
-							<wsdlDirectory>${basedir}/src/main/resources/META-INF/wsdl/svilupdotnet.unitn.it/ADAWsData</wsdlDirectory>
-							<wsdlFiles>
-								<wsdlFile>ADAWsData.svc.wsdl</wsdlFile>
-							</wsdlFiles>
-							<!-- 
-							 <wsdlUrls>
-							     <wsdUrl>http://webapps.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl</wsdUrl>
-							 </wsdlUrls>
-							  -->
-							<wsdlLocation>http://webapps.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl</wsdlLocation>
-							<sourceDestDir>${basedir}/src/main/java</sourceDestDir>
-							<packageName>smartcampus.ada</packageName>
-							<xnocompile>true</xnocompile>
-							<extension>true</extension>
-							<catalog>${basedir}/src/main/resources/META-INF/jax-ws-catalog.xml</catalog>
-							<verbose>true</verbose>
-						</configuration>
 					</execution>
 				</executions>
+				<configuration>
+					<wsdlDirectory>${basedir}/src/main/resources/META-INF/wsdl/svilupdotnet.unitn.it/ADAWsData</wsdlDirectory>
+					<wsdlFiles>
+						<wsdlFile>ADAWsData.svc.wsdl</wsdlFile>
+					</wsdlFiles>
+					<!-- <wsdlUrls> <wsdUrl>http://webapps.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl</wsdUrl> 
+						</wsdlUrls> -->
+					<wsdlLocation>http://webapps.unitn.it/ADA/ADAWS/ADAWSDataProd1.3/ADAWsData.svc?wsdl</wsdlLocation>
+					<sourceDestDir>${basedir}/src/main/java</sourceDestDir>
+					<packageName>smartcampus.ada</packageName>
+					<xnocompile>true</xnocompile>
+					<extension>true</extension>
+					<catalog>${basedir}/src/main/resources/META-INF/jax-ws-catalog.xml</catalog>
+					<verbose>true</verbose>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
